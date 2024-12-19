@@ -1,6 +1,8 @@
 import React from "react";
 import { Typography, IconButton } from "@material-tailwind/react";
 import { color } from "@material-tailwind/react/types/components/alert";
+import Image from "next/image";
+import Logo from "@/assests/img/logo-2.png";
 
 interface SocialItem {
   color: color;
@@ -29,7 +31,7 @@ interface FooterProps {
 const year = new Date().getFullYear();
 
 function Footer({
-  title = "Logo",
+  title = "WireWave",
   description = "",
   socials = [
     {
@@ -59,34 +61,34 @@ function Footer({
       name: "useful links",
       items: [
         { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
-        {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
-        },
-        {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
-        },
+        { name: "Contact Us", path: "https://www.creative-tim.com/blog" },
+        // {
+        //   name: "Github",
+        //   path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+        // },
+        // {
+        //   name: "Free Products",
+        //   path: "https://www.creative-tim.com/templates/free?ref=mtk",
+        // },
       ],
     },
     {
-      name: "other resources",
+      name: "Our Services",
       items: [
         {
-          name: "MIT License",
+          name: "Infrastructure Services",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
         },
         {
-          name: "Contribute",
+          name: "Security Services",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
         },
         {
-          name: "Change Log",
+          name: "Data Center Services",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
         },
         {
-          name: "Contact Us",
+          name: "Telephony Services",
           path: "https://creative-tim.com/contact-us?ref=mtk",
         },
       ],
@@ -110,7 +112,7 @@ function Footer({
       <div className="container mx-auto">
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
           <div className="w-full px-4 lg:w-6/12">
-            <Typography
+            {/* <Typography
               variant="h4"
               className="mb-4"
               color="blue-gray"
@@ -119,7 +121,8 @@ function Footer({
               placeholder=""
             >
               {title}
-            </Typography>
+            </Typography> */}
+            <Image src={Logo} alt="Logo" className="h-20 w-20" />
             <Typography
               className="font-normal text-blue-gray-500 lg:w-2/5"
               onPointerEnterCapture={undefined}

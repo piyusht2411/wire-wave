@@ -9,6 +9,8 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Logo from "@/assests/img/logo-2.png";
+import Image from "next/image";
 
 interface RouteItem {
   name: string;
@@ -25,7 +27,7 @@ interface NavbarProps {
 }
 
 function Navbar({
-  brandName = "Logo",
+  brandName = "Wire Wave",
   routes,
   action = (
     <a
@@ -105,14 +107,15 @@ function Navbar({
     >
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link href="/">
-          <Typography
+          {/* <Typography
             className="mr-4 ml-2 cursor-pointer py-1.5 font-bold"
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
             placeholder=""
           >
             {brandName}
-          </Typography>
+          </Typography> */}
+          <Image src={Logo} alt="Logo" className="h-20 w-20" />
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">

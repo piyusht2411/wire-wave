@@ -9,19 +9,19 @@ import {
       title: "Excelent Services",
       icon: BriefcaseIcon,
       description:
-        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Quick, efficient solutions tailored to meet your specific business needs.",
     },
     {
       title: "Grow Your Market",
       icon: ChartBarIcon,
       description:
-        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Quick, efficient strategies to expand your business reach and impact",
     },
     {
       title: "Launch Time",
       icon: PlayIcon,
       description:
-        "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "Seamlessly launch your project with our expert guidance and efficient solutions.",
     },
   ];
   
