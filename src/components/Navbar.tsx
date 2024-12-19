@@ -34,7 +34,7 @@ function Navbar({
       rel="noopener noreferrer"
     >
       <Button variant="gradient" size="sm" fullWidth>
-        Button
+        VoIP Solutions
       </Button>
     </a>
   ),

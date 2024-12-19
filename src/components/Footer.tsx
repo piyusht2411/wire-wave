@@ -30,7 +30,7 @@ const year = new Date().getFullYear();
 
 function Footer({
   title = "Logo",
-  description = "Easy to use React components for Tailwind CSS and Material Design.",
+  description = "",
   socials = [
     {
       color: "gray",
@@ -94,15 +94,13 @@ function Footer({
   ],
   copyright = (
     <>
-      Copyright © {year} Material Tailwind by{" "}
+      Copyright © {year}
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
-      >
-        Creative Tim
-      </a>
+      ></a>
       .
     </>
   ),
@@ -132,29 +130,29 @@ function Footer({
             </Typography>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name, path }) => (
-                <a
-                  key={name}
-                  href={path}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                // <a
+                //   key={name}
+                //   href={path}
+                //   target="_blank"
+                //   rel="noopener noreferrer"
+                // >
+                <IconButton
+                  color="white"
+                  className="rounded-full shadow-none bg-transparent"
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  placeholder=""
                 >
-                  <IconButton
-                    color="white"
-                    className="rounded-full shadow-none bg-transparent"
+                  <Typography
+                    color={color}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                     placeholder=""
                   >
-                    <Typography
-                      color={color}
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                      placeholder=""
-                    >
-                      <i className={`fa-brands fa-${name}`} />
-                    </Typography>
-                  </IconButton>
-                </a>
+                    <i className={`fa-brands fa-${name}`} />
+                  </Typography>
+                </IconButton>
+                // </a>
               ))}
             </div>
           </div>
@@ -175,8 +173,8 @@ function Footer({
                   {items.map((item) => (
                     <li key={item.name}>
                       <Typography
-                        as="a"
-                        href={item.path}
+                        // as="a"
+                        // href={item.path}
                         target="_blank"
                         rel="noreferrer"
                         variant="small"
