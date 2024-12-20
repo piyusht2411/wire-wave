@@ -6,7 +6,7 @@ const FlipBoxComponent = ({
   image,
 }: any) => {
   return (
-    <div className="box-item">
+    <div className="box-item shadow-lg">
       <div className="flip-box">
         <div
           className="flip-box-front text-center"

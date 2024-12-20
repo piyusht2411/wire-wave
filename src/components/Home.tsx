@@ -65,7 +65,7 @@ function Home() {
       </div>
       <section className="-mt-32 bg-white px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <div className="flex flex-wrap text-white gap-2 items-center justify-center">
+          <div className="flex flex-wrap text-white gap-4 items-center justify-center">
             {featuresData.map(
               ({ title, description, image }) => (
                 <FlipCards
