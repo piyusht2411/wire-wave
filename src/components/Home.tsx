@@ -11,7 +11,10 @@ import {
   Textarea,
   Checkbox,
 } from "@material-tailwind/react";
-import { FingerPrintIcon } from "@heroicons/react/24/solid";
+import {
+  FingerPrintIcon,
+  GlobeAltIcon,
+} from "@heroicons/react/24/solid";
 import featuresData from "@/data/features-data";
 import teamData from "@/data/team-data";
 import contactData from "@/data/contact-data";
@@ -22,12 +25,14 @@ import TeamCard from "./TeamCard";
 import FlipCards from "./FlipCards";
 import Image from "next/image";
 import teamImage from "@/assests/img/teamwork.png";
+import card1 from "@/assests/img/card-1.jpg";
+import card2 from "@/assests/img/card-2.png";
 
 function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('../assests/img/background-3.png')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('../assests/img/banner.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -89,7 +94,8 @@ function Home() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Working with us is a pleasure
+                Experience Excellence with Every
+                Interaction
               </Typography>
               <Typography
                 className="mb-8 font-normal text-blue-gray-500"
@@ -97,18 +103,22 @@ function Home() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Don't let your uses guess by
-                attaching tooltips and popoves to
-                any element. Just make sure you
-                enable them first via JavaScript.
+                {/* Don't let your uses guess by attaching tooltips and popoves to
+                any element. Just make sure you enable them first via
+                JavaScript.
                 <br />
                 <br />
-                The kit comes with three pre-built
-                pages to help you get started
-                faster. You can change the text
-                and images and you're good to go.
-                Just make sure you enable them
-                first via JavaScript.
+                The kit comes with three pre-built pages to help you get started
+                faster. You can change the text and images and you're good to
+                go. Just make sure you enable them first via JavaScript. */}
+                Simplify your user experience with
+                intuitive tooltips and popovers.
+                Easily integrate them with
+                JavaScript for seamless
+                functionality. Kickstart your
+                projects with our pre-built
+                pages—customize text and images to
+                make them uniquely yours
               </Typography>
               <Button variant="filled">
                 read more
@@ -134,7 +144,7 @@ function Home() {
                 >
                   <Image
                     alt="Card Image"
-                    src={teamImage}
+                    src={card2}
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -159,7 +169,8 @@ function Home() {
                       undefined
                     }
                   >
-                    Enterprise
+                    Enterprise Solutions,
+                    Redefined
                   </Typography>
                   <Typography
                     variant="h5"
@@ -173,7 +184,8 @@ function Home() {
                       undefined
                     }
                   >
-                    Top Notch Services
+                    Delivering Top-Notch Services
+                    for Unstoppable Growth
                   </Typography>
                   <Typography
                     className="font-normal text-blue-gray-500"
@@ -185,11 +197,142 @@ function Home() {
                       undefined
                     }
                   >
-                    The Arctic Ocean freezes every
-                    winter and much of the sea-ice
-                    then thaws every summer, and
-                    that process will continue
-                    whatever happens.
+                    Just like the Arctic Ocean’s
+                    resilience through seasons,
+                    our services adapt and evolve
+                    to meet your business needs.
+                    Trust us to provide innovative
+                    solutions that stand the test
+                    of time.
+                  </Typography>
+                </CardBody>
+              </Card>
+            </div>
+          </div>
+          <div className="mt-32 flex flex-wrap items-center">
+            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
+                <GlobeAltIcon className="h-8 w-8 text-white " />
+              </div>
+              <Typography
+                variant="h3"
+                className="mb-3 font-bold"
+                color="blue-gray"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Partner with Us for Seamless
+                Experiences
+              </Typography>
+              <Typography
+                className="mb-8 font-normal text-blue-gray-500"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                {/* Don't let your uses guess by attaching tooltips and popoves to
+                any element. Just make sure you enable them first via
+                JavaScript.
+                <br />
+                <br />
+                The kit comes with three pre-built pages to help you get started
+                faster. You can change the text and images and you're good to
+                go. Just make sure you enable them first via JavaScript. */}
+                "Enhance user interactions with
+                effortless tooltips and popovers,
+                powered by simple JavaScript
+                integrations. Get started quickly
+                with our pre-designed
+                pages—customizable to fit your
+                unique vision and ready to deploy
+                with ease.
+              </Typography>
+              <Button variant="filled">
+                read more
+              </Button>
+            </div>
+            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
+              <Card
+                className="shadow-lg border shadow-gray-500/10 rounded-lg"
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                placeholder=""
+              >
+                <CardHeader
+                  floated={false}
+                  className="relative h-56"
+                  onPointerEnterCapture={
+                    undefined
+                  }
+                  onPointerLeaveCapture={
+                    undefined
+                  }
+                  placeholder=""
+                >
+                  <Image
+                    alt="Card Image"
+                    src={card1}
+                    className="h-full w-full"
+                  />
+                </CardHeader>
+                <CardBody
+                  onPointerEnterCapture={
+                    undefined
+                  }
+                  onPointerLeaveCapture={
+                    undefined
+                  }
+                  placeholder=""
+                >
+                  <Typography
+                    variant="small"
+                    color="blue-gray"
+                    className="font-normal"
+                    placeholder={undefined}
+                    onPointerEnterCapture={
+                      undefined
+                    }
+                    onPointerLeaveCapture={
+                      undefined
+                    }
+                  >
+                    Empowering Innovation at Every
+                    Step
+                  </Typography>
+                  <Typography
+                    variant="h5"
+                    color="blue-gray"
+                    className="mb-3 mt-2 font-bold"
+                    placeholder={undefined}
+                    onPointerEnterCapture={
+                      undefined
+                    }
+                    onPointerLeaveCapture={
+                      undefined
+                    }
+                  >
+                    Seamless Experiences
+                  </Typography>
+                  <Typography
+                    className="font-normal text-blue-gray-500"
+                    placeholder={undefined}
+                    onPointerEnterCapture={
+                      undefined
+                    }
+                    onPointerLeaveCapture={
+                      undefined
+                    }
+                  >
+                    Enhance user interactions with
+                    effortless tooltips and
+                    popovers, powered by simple
+                    JavaScript integrations. Get
+                    started quickly with our
+                    pre-designed
+                    pages—customizable to fit your
+                    unique vision and ready to
+                    deploy with ease.
                   </Typography>
                 </CardBody>
               </Card>
@@ -204,10 +347,10 @@ function Home() {
             section="Our Team"
             heading="Here are our heroes"
           >
-            According to the National Oceanic and
-            Atmospheric Administration, Ted,
-            Scambos, NSIDClead scentist, puts the
-            potentially record maximum.
+            Meet the dedicated individuals behind
+            our success. With their expertise and
+            passion, they drive innovation,
+            excellence, and outstanding results.
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map((item, ind) => (
@@ -251,11 +394,13 @@ function Home() {
             section="Co-Working"
             heading="Build something"
           >
-            Put the potentially record low maximum
-            sea ice extent tihs year down to low
-            ice. According to the National Oceanic
-            and Atmospheric Administration, Ted,
-            Scambos.
+            Join us in creating, collaborating,
+            and achieving more together. Our
+            co-working spaces foster innovation,
+            productivity, and community. Whether
+            you’re an individual or a team, we
+            provide the environment and resources
+            you need to bring your ideas to life.
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(

@@ -1,6 +1,8 @@
 import React from "react";
 import { Typography, IconButton } from "@material-tailwind/react";
 import { color } from "@material-tailwind/react/types/components/alert";
+import Image from "next/image";
+import Logo from "@/assests/img/logo-2.png";
 
 interface SocialItem {
   color: color;
@@ -29,8 +31,8 @@ interface FooterProps {
 const year = new Date().getFullYear();
 
 function Footer({
-  title = "Logo",
-  description = "Easy to use React components for Tailwind CSS and Material Design.",
+  title = "WireWave",
+  description = "",
   socials = [
     {
       color: "gray",
@@ -59,34 +61,34 @@ function Footer({
       name: "useful links",
       items: [
         { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
-        {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
-        },
-        {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
-        },
+        { name: "Contact Us", path: "https://www.creative-tim.com/blog" },
+        // {
+        //   name: "Github",
+        //   path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+        // },
+        // {
+        //   name: "Free Products",
+        //   path: "https://www.creative-tim.com/templates/free?ref=mtk",
+        // },
       ],
     },
     {
-      name: "other resources",
+      name: "Our Services",
       items: [
         {
-          name: "MIT License",
+          name: "Infrastructure Services",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
         },
         {
-          name: "Contribute",
+          name: "Security Services",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
         },
         {
-          name: "Change Log",
+          name: "Data Center Services",
           path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
         },
         {
-          name: "Contact Us",
+          name: "Telephony Services",
           path: "https://creative-tim.com/contact-us?ref=mtk",
         },
       ],
@@ -94,15 +96,13 @@ function Footer({
   ],
   copyright = (
     <>
-      Copyright © {year} Material Tailwind by{" "}
+      Copyright © {year}
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
-      >
-        Creative Tim
-      </a>
+      ></a>
       .
     </>
   ),
@@ -112,7 +112,7 @@ function Footer({
       <div className="container mx-auto">
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
           <div className="w-full px-4 lg:w-6/12">
-            <Typography
+            {/* <Typography
               variant="h4"
               className="mb-4"
               color="blue-gray"
@@ -121,7 +121,8 @@ function Footer({
               placeholder=""
             >
               {title}
-            </Typography>
+            </Typography> */}
+            <Image src={Logo} alt="Logo" className="h-20 w-20" />
             <Typography
               className="font-normal text-blue-gray-500 lg:w-2/5"
               onPointerEnterCapture={undefined}
@@ -132,29 +133,29 @@ function Footer({
             </Typography>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name, path }) => (
-                <a
-                  key={name}
-                  href={path}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                // <a
+                //   key={name}
+                //   href={path}
+                //   target="_blank"
+                //   rel="noopener noreferrer"
+                // >
+                <IconButton
+                  color="white"
+                  className="rounded-full shadow-none bg-transparent"
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  placeholder=""
                 >
-                  <IconButton
-                    color="white"
-                    className="rounded-full shadow-none bg-transparent"
+                  <Typography
+                    color={color}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                     placeholder=""
                   >
-                    <Typography
-                      color={color}
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                      placeholder=""
-                    >
-                      <i className={`fa-brands fa-${name}`} />
-                    </Typography>
-                  </IconButton>
-                </a>
+                    <i className={`fa-brands fa-${name}`} />
+                  </Typography>
+                </IconButton>
+                // </a>
               ))}
             </div>
           </div>
@@ -175,8 +176,8 @@ function Footer({
                   {items.map((item) => (
                     <li key={item.name}>
                       <Typography
-                        as="a"
-                        href={item.path}
+                        // as="a"
+                        // href={item.path}
                         target="_blank"
                         rel="noreferrer"
                         variant="small"
