@@ -209,138 +209,9 @@ function Home() {
               </Card>
             </div>
           </div>
-          <div className="mt-32 flex flex-wrap items-center">
-            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
-                <GlobeAltIcon className="h-8 w-8 text-white " />
-              </div>
-              <Typography
-                variant="h3"
-                className="mb-3 font-bold"
-                color="blue-gray"
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                Partner with Us for Seamless
-                Experiences
-              </Typography>
-              <Typography
-                className="mb-8 font-normal text-blue-gray-500"
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                {/* Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
-                <br />
-                <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript. */}
-                "Enhance user interactions with
-                effortless tooltips and popovers,
-                powered by simple JavaScript
-                integrations. Get started quickly
-                with our pre-designed
-                pages—customizable to fit your
-                unique vision and ready to deploy
-                with ease.
-              </Typography>
-              <Button variant="filled">
-                read more
-              </Button>
-            </div>
-            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
-              <Card
-                className="shadow-lg border shadow-gray-500/10 rounded-lg"
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <CardHeader
-                  floated={false}
-                  className="relative h-56"
-                  onPointerEnterCapture={
-                    undefined
-                  }
-                  onPointerLeaveCapture={
-                    undefined
-                  }
-                  placeholder=""
-                >
-                  <Image
-                    alt="Card Image"
-                    src={card1}
-                    className="h-full w-full"
-                  />
-                </CardHeader>
-                <CardBody
-                  onPointerEnterCapture={
-                    undefined
-                  }
-                  onPointerLeaveCapture={
-                    undefined
-                  }
-                  placeholder=""
-                >
-                  <Typography
-                    variant="small"
-                    color="blue-gray"
-                    className="font-normal"
-                    placeholder={undefined}
-                    onPointerEnterCapture={
-                      undefined
-                    }
-                    onPointerLeaveCapture={
-                      undefined
-                    }
-                  >
-                    Empowering Innovation at Every
-                    Step
-                  </Typography>
-                  <Typography
-                    variant="h5"
-                    color="blue-gray"
-                    className="mb-3 mt-2 font-bold"
-                    placeholder={undefined}
-                    onPointerEnterCapture={
-                      undefined
-                    }
-                    onPointerLeaveCapture={
-                      undefined
-                    }
-                  >
-                    Seamless Experiences
-                  </Typography>
-                  <Typography
-                    className="font-normal text-blue-gray-500"
-                    placeholder={undefined}
-                    onPointerEnterCapture={
-                      undefined
-                    }
-                    onPointerLeaveCapture={
-                      undefined
-                    }
-                  >
-                    Enhance user interactions with
-                    effortless tooltips and
-                    popovers, powered by simple
-                    JavaScript integrations. Get
-                    started quickly with our
-                    pre-designed
-                    pages—customizable to fit your
-                    unique vision and ready to
-                    deploy with ease.
-                  </Typography>
-                </CardBody>
-              </Card>
-            </div>
-          </div>
         </div>
       </section>
-
+      {/* team section */}
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
           <PageTitle
@@ -388,19 +259,127 @@ function Home() {
           </div>
         </div>
       </section>
+      <div className="mt-32 flex flex-wrap items-center">
+        <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
+          <Card
+            className="shadow-lg border shadow-gray-500/10 rounded-lg"
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+            placeholder=""
+          >
+            <CardHeader
+              floated={false}
+              className="relative h-56"
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              placeholder=""
+            >
+              <Image
+                alt="Card Image"
+                src={card1}
+                className="h-full w-full"
+              />
+            </CardHeader>
+            <CardBody
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              placeholder=""
+            >
+              <Typography
+                variant="small"
+                color="blue-gray"
+                className="font-normal"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Empowering Innovation at Every
+                Step
+              </Typography>
+              <Typography
+                variant="h5"
+                color="blue-gray"
+                className="mb-3 mt-2 font-bold"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Seamless Experiences
+              </Typography>
+              <Typography
+                className="font-normal text-blue-gray-500"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Enhance user interactions with
+                effortless tooltips and popovers,
+                powered by simple JavaScript
+                integrations. Get started quickly
+                with our pre-designed
+                pages—customizable to fit your
+                unique vision and ready to deploy
+                with ease.
+              </Typography>
+            </CardBody>
+          </Card>
+        </div>
+        <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
+          <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
+            <GlobeAltIcon className="h-8 w-8 text-white " />
+          </div>
+          <Typography
+            variant="h3"
+            className="mb-3 font-bold"
+            color="blue-gray"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            Partner with Us for Seamless
+            Experiences
+          </Typography>
+          <Typography
+            className="mb-8 font-normal text-blue-gray-500"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            {/* Don't let your uses guess by attaching tooltips and popoves to
+                any element. Just make sure you enable them first via
+                JavaScript.
+                <br />
+                <br />
+                The kit comes with three pre-built pages to help you get started
+                faster. You can change the text and images and you're good to
+                go. Just make sure you enable them first via JavaScript. */}
+            "Enhance user interactions with
+            effortless tooltips and popovers,
+            powered by simple JavaScript
+            integrations. Get started quickly with
+            our pre-designed pages—customizable to
+            fit your unique vision and ready to
+            deploy with ease.
+          </Typography>
+          <Button variant="filled">
+            read more
+          </Button>
+        </div>
+      </div>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
           <PageTitle
-            section="Co-Working"
-            heading="Build something"
+            section="Business Growth"
+            heading="Experienced & skilled IT services all over Canada"
           >
-            Join us in creating, collaborating,
-            and achieving more together. Our
-            co-working spaces foster innovation,
-            productivity, and community. Whether
-            you’re an individual or a team, we
-            provide the environment and resources
-            you need to bring your ideas to life.
+            We are a leading Canada-based provider
+            of IT and data services for small and
+            medium-sized businesses. Our solutions
+            are affordable, high-quality, and
+            technically robust, designed to meet
+            all your business needs. Backed by a
+            skilled and dependable team, we serve
+            as your trusted support partner.
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(
