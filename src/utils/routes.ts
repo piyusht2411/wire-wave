@@ -5,14 +5,14 @@ export const routes = [
   },
   {
     name: "Our services",
-    path: "/",
+    path: "/our-services",
   },
   {
     name: "About us",
-    path: "/",
+    path: "/about-us",
   },
   {
     name: "Contact us",
-    path: "/",
+    path: "/contact-us",
   },
 ];

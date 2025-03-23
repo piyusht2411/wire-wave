@@ -30,15 +30,11 @@ function Navbar({
   brandName = "Wire Wave",
   routes,
   action = (
-    <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <Link href="/voip-solutions">
       <Button variant="gradient" size="sm" fullWidth>
         VoIP Solutions
       </Button>
-    </a>
+    </Link>
   ),
 }: NavbarProps) {
   const [openNav, setOpenNav] = useState(false);

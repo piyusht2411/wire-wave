@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import NavbarWrapper from "@/components/NavbarWrapper";
 import "./globals.css";
 import MTThemeProvider from "@/Providers/ThemeProvider";
+import "swiper/css";
+import "swiper/css/navigation";
 
 export const metadata: Metadata = {
   title: "Wire wave",

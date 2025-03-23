@@ -51,6 +51,18 @@ body {
   -webkit-perspective: 1000px;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important;
+  color: #000000 !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000 !important;
+}
+
+
 .flip-box-front,
 .flip-box-back {
   background-size: cover;

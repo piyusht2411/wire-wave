@@ -15,84 +15,159 @@ interface data {
   }>;
 }
 
-const teamData:data[] = [
-    {
-      img: image1,
-      name: "Ryan Tompson",
-      position: "Web Developer",
-      socials: [
-        {
-          color: "light-blue",
-          name: "twitter",
-        },
-        {
-          color: "blue",
-          name: "linkedin",
-        },
-        {
-          color: "pink",
-          name: "dribbble",
-        },
-      ],
-    },
-    {
-      img: image2,
-      name: "Romina Hadid",
-      position: "Marketing Specialist",
-      socials: [
-        {
-          color: "light-blue",
-          name: "twitter",
-        },
-        {
-          color: "blue",
-          name: "linkedin",
-        },
-        {
-          color: "pink",
-          name: "dribbble",
-        },
-      ],
-    },
-    {
-      img: image3,
-      name: "Alexa Smith",
-      position: "UI/UX Designer",
-      socials: [
-        {
-          color: "light-blue",
-          name: "twitter",
-        },
-        {
-          color: "blue",
-          name: "linkedin",
-        },
-        {
-          color: "pink",
-          name: "dribbble",
-        },
-      ],
-    },
-    {
-      img: image4,
-      name: "Jenna Kardi",
-      position: "Founder and CEO",
-      socials: [
-        {
-          color: "light-blue",
-          name: "twitter",
-        },
-        {
-          color: "blue",
-          name: "facebook",
-        },
-        {
-          color: "pink",
-          name: "dribbble",
-        },
-      ],
-    },
-  ];
-  
-  export default teamData;
-  
+const teamData: data[] = [
+  {
+    img: image1,
+    name: "Ryan Tompson",
+    position: "Web Developer",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image2,
+    name: "Romina Hadid",
+    position: "Marketing Specialist",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image3,
+    name: "Alexa Smith",
+    position: "UI/UX Designer",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image4,
+    name: "Jenna Kardi",
+    position: "Founder and CEO",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "facebook",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image1,
+    name: "Ryan Tompson",
+    position: "Web Developer",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image2,
+    name: "Romina Hadid",
+    position: "Marketing Specialist",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image3,
+    name: "Alexa Smith",
+    position: "UI/UX Designer",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+  {
+    img: image4,
+    name: "Jenna Kardi",
+    position: "Founder and CEO",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "facebook",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  },
+];
+
+export default teamData;
