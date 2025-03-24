@@ -81,6 +81,29 @@ function Home() {
     }
   };
 
+  const companies = [
+    {
+      name: `Google`,
+      img: `company1.png`
+    },
+    {
+      name:`Facebook`,
+      img:`company2.png`
+    },
+    {
+      name:`Pinterest`,
+      img:`company3.png`
+    },
+    {
+      name:`Blackrock`,
+      img:`company4.png`
+    },
+    {
+      name:`Amazon`,
+      img:`company5.jpg`
+    }
+  ]
+
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
@@ -220,10 +243,10 @@ function Home() {
       </section>
       <section className="px-4 pt-10 pb-20 lg:pt-20">
         <div className="container mx-auto">
-          <PageTitle section="Our Team" heading="Here are our heroes">
-            Meet the dedicated individuals behind our success. With their
-            expertise and passion, they drive innovation, excellence, and
-            outstanding results.
+          <PageTitle section="Our Clients" heading="Loved by many. Trusted by all.">
+            Our clients are our biggest supporters. Would you like to know what
+            they think about us? Take a look for yourself in the testimonials
+            below.
           </PageTitle>
           <div className="mt-16 relative">
             <Swiper
@@ -242,34 +265,19 @@ function Home() {
               mousewheel={true}
               className="mySwiper"
             >
-              {teamData.map((item, ind) => (
+              {companies.map((item, ind) => (
                 <SwiperSlide key={ind} className="pt-14">
-                  <TeamCard
-                    img={item.img}
-                    name={item.name}
-                    position={item.position}
-                    socials={
-                      <div className="flex items-center gap-2">
-                        {item.socials.map((social, idx) => (
-                          <IconButton
-                            key={idx}
-                            color={social.color}
-                            variant="text"
-                            placeholder={undefined}
-                            onPointerEnterCapture={undefined}
-                            onPointerLeaveCapture={undefined}
-                          >
-                            <i
-                              className={`fa-brands text-xl fa-${social.name}`}
-                            />
-                          </IconButton>
-                        ))}
-                      </div>
-                    }
-                  />
+                  <div className="flex flex-col gap-2 items-center justify-center">
+                    <img
+                      src={`/images/companies/${item.img}`}
+                      alt={item.name}
+                      className="h-60 w-60 object-contain"
+                    />
+                    {/* <p className="text-gray-700 text-xl font-semibold spacing-2">{item.name}</p> */}
+                  </div>
                 </SwiperSlide>
               ))}
-              <div className="absolute top-[4%] right-[4%] flex-row gap-2 z-10 hidden lg:flex">
+              <div className="absolute top-[4%] right-[4%] flex-row gap-2 z-10 hidden lg:flex pt-[20px]">
                 <div className="swiper-button-prev !w-max">
                   <ArrowLeftCircleIcon className="h-8 w-8" />
                 </div>
@@ -511,9 +519,7 @@ function Home() {
           </form>
         </div>
       </section>
-      <div className="bg-white">
-        <Footer />
-      </div>
+
     </>
   );
 }

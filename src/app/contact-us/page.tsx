@@ -177,7 +177,6 @@ const ContactUs: React.FC = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Tell us about your needs"
                     rows={6}
                     required
                     onPointerEnterCapture={undefined}

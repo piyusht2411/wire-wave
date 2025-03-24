@@ -65,11 +65,11 @@ function Footer({
       items: [
         {
           name: "About Us",
-          path: "https://www.creative-tim.com/presentation",
+          path: "/about-us",
         },
         {
           name: "Contact Us",
-          path: "https://www.creative-tim.com/blog",
+          path: "/contact-us",
         },
         // {
         //   name: "Github",
@@ -85,20 +85,20 @@ function Footer({
       name: "Our Services",
       items: [
         {
-          name: "Infrastructure Services",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
+          name: "Network Infrastructure Services",
+          path: "/",
         },
         {
-          name: "Security Services",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
+          name: "Wireless Technology Expert",
+          path: "/",
         },
         {
-          name: "Data Center Services",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
+          name: "Structured Cabling",
+          path: "/",
         },
         {
-          name: "Telephony Services",
-          path: "https://creative-tim.com/contact-us?ref=mtk",
+          name: "VoIP System Integration",
+          path: "/",
         },
       ],
     },
@@ -134,7 +134,7 @@ function Footer({
             <Image
               src={Logo}
               alt="Logo"
-              className="h-20 w-20"
+              className="h-20 w-20 bg-black rounded-md"
             />
             <Typography
               className="font-normal text-blue-gray-500 lg:w-2/5"
@@ -205,8 +205,8 @@ function Footer({
                   {items.map((item) => (
                     <li key={item.name}>
                       <Typography
-                        // as="a"
-                        // href={item.path}
+                        as="a"
+                        href={item.path}
                         target="_blank"
                         rel="noreferrer"
                         variant="small"
