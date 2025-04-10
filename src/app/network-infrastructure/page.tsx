@@ -20,7 +20,7 @@ import {
 } from "@heroicons/react/24/solid";
 import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
-import voipImage1 from "@/assests/img/voip-image1.jpg";
+import networkImage1 from "@/assests/img/network.avif";
 import voipImage2 from "@/assests/img/voip-image2.jpg";
 
 const VOIPSolutions: React.FC = () => {
@@ -41,7 +41,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                VOIP Solutions
+                Network Infrastructure Solutions
               </Typography>
               <Typography
                 variant="lead"
@@ -51,10 +51,10 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Revolutionize your business communication with Wire Wave’s VOIP
-                services. Affordable, scalable, and backed by 24/7 support, our
-                solutions deliver crystal-clear voice quality and seamless
-                connectivity for teams near and far.
+                Reliable and scalable network infrastructure solutions designed
+                to boost performance, ensure security, and support seamless
+                connectivity for businesses of all sizes. Tailored to meet your
+                unique needs.
               </Typography>
             </div>
           </div>
@@ -79,8 +79,8 @@ const VOIPSolutions: React.FC = () => {
                 placeholder=""
               >
                 <Image
-                  alt="VOIP Solutions"
-                  src={voipImage1}
+                  alt="Network Infrastructure Solution"
+                  src={networkImage1}
                   className="h-full w-full object-cover"
                   width={600}
                   height={400}
@@ -99,7 +99,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  The Future of Voice Communication
+                  Usage of network infrastructure solutions
                 </Typography>
                 <Typography
                   className="font-normal text-blue-gray-500"
@@ -107,11 +107,11 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Voice Over Internet Protocol (VOIP) has transformed how
-                  businesses connect. At Wire Wave, we harness this technology
-                  to provide efficient, high-bandwidth solutions that outpace
-                  traditional phone systems, empowering your team wherever they
-                  are.
+                  Network infrastructure solutions are essential for modern
+                  businesses, enabling seamless connectivity, data transfer, and
+                  communication. They support various applications, from cloud
+                  computing to remote work, ensuring efficient operations and
+                  enhanced productivity.
                 </Typography>
               </CardBody>
             </Card>
@@ -128,7 +128,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Why Wire Wave VOIP?
+                Why to use Wire Wave for network infrastructure solutions?
               </Typography>
               <Typography
                 className="mb-8 font-normal text-blue-gray-500"
@@ -136,11 +136,11 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                The internet revolutionized communication, and VOIP is at the
-                forefront. We deliver industry-standard hardware and software
-                optimized for your business, ensuring affordability,
-                scalability, and top-tier performance—perfect for remote and
-                on-site teams alike.
+                Wire Wave delivers robust network infrastructure solutions
+                tailored to your business needs. From secure LAN/WAN setups to
+                cloud integration and wireless networking, we ensure high-speed
+                connectivity, scalability, and top-tier security to keep your
+                operations running smoothly and efficiently
               </Typography>
               <a
                 href="/contact-us"
@@ -158,12 +158,10 @@ const VOIPSolutions: React.FC = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <PageTitle
-            section="VOIP Features"
-            heading="Advanced Tools for Modern Businesses"
+            section="Network Infrastructure Solutions"
+            heading="Benefits of using infrastructure of network"
           >
-            Our VOIP solutions are designed to meet the demands of today’s
-            dynamic workplaces, offering features that enhance productivity and
-            connectivity.
+            Enhances connectivity, boosts performance, ensures security, and supports business scalability.
           </PageTitle>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -198,7 +196,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Our team is available round-the-clock to keep your VOIP system
+                  Our team is available round-the-clock to keep your Network Infrastructure Solution system
                   running smoothly, with fast resolutions and expert guidance
                   whenever you need it.
                 </Typography>
@@ -274,7 +272,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Integrate VOIP effortlessly with your existing network
+                  Integrate Network Infrastructure Solution effortlessly with your existing network
                   infrastructure, from data systems to security solutions, for a
                   unified experience.
                 </Typography>
@@ -287,8 +285,8 @@ const VOIPSolutions: React.FC = () => {
       {/* Benefits Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Benefits" heading="Why VOIP with Wire Wave?">
-            From startups to large enterprises, our VOIP services deliver
+          <PageTitle section="Benefits" heading="Why Network Infrastructure Solution with Wire Wave?">
+            From startups to large enterprises, our Network Infrastructure Solution services deliver
             unmatched value, inspired by the internet’s transformative power.
           </PageTitle>
 
@@ -319,7 +317,7 @@ const VOIPSolutions: React.FC = () => {
                     onPointerLeaveCapture={undefined}
                   >
                     Lower Costs – Slash traditional phone expenses with our
-                    affordable VOIP plans.
+                    affordable Network Infrastructure Solution plans.
                   </Typography>
                 </ListItem>
                 <ListItem
@@ -454,7 +452,7 @@ const VOIPSolutions: React.FC = () => {
                 placeholder=""
               >
                 <Image
-                  alt="VOIP Benefits"
+                  alt="Network Infrastructure Solution Benefits"
                   src={voipImage2}
                   className="h-full w-full object-cover"
                   width={600}
@@ -482,7 +480,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  As remote work becomes the norm, our VOIP solutions provide
+                  As remote work becomes the norm, our Network Infrastructure Solution solutions provide
                   the flexibility and reliability your team needs to stay
                   connected, productive, and ahead of the curve.
                 </Typography>
@@ -510,7 +508,7 @@ const VOIPSolutions: React.FC = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Join the VOIP revolution with Wire Wave. Contact us to explore how
+            Join the Network Infrastructure Solution revolution with Wire Wave. Contact us to explore how
             our solutions can elevate your business communication to new
             heights.
           </Typography>

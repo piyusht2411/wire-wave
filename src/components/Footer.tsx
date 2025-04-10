@@ -86,19 +86,19 @@ function Footer({
       items: [
         {
           name: "Network Infrastructure Services",
-          path: "/",
+          path: "/network-infracture",
         },
         {
           name: "Wireless Technology Expert",
-          path: "/",
+          path: "/wireless-technology",
         },
         {
           name: "Structured Cabling",
-          path: "/",
+          path: "/structured-cabling",
         },
         {
           name: "VoIP System Integration",
-          path: "/",
+          path: "/voip-solutions",
         },
       ],
     },

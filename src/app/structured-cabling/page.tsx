@@ -20,7 +20,7 @@ import {
 } from "@heroicons/react/24/solid";
 import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
-import voipImage1 from "@/assests/img/voip-image1.jpg";
+import structuredImage1 from "@/assests/img/structured.jpg";
 import voipImage2 from "@/assests/img/voip-image2.jpg";
 
 const VOIPSolutions: React.FC = () => {
@@ -41,7 +41,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                VOIP Solutions
+                Stuctured Cabling Solutions
               </Typography>
               <Typography
                 variant="lead"
@@ -51,7 +51,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Revolutionize your business communication with Wire Wave’s VOIP
+                Revolutionize your business communication with Wire Wave’s Stuctured Cabling
                 services. Affordable, scalable, and backed by 24/7 support, our
                 solutions deliver crystal-clear voice quality and seamless
                 connectivity for teams near and far.
@@ -61,7 +61,7 @@ const VOIPSolutions: React.FC = () => {
         </div>
       </div>
 
-      {/* VOIP Overview Section */}
+      {/* Stuctured Cabling Overview Section */}
       <section className="mt-8 bg-white px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -79,8 +79,8 @@ const VOIPSolutions: React.FC = () => {
                 placeholder=""
               >
                 <Image
-                  alt="VOIP Solutions"
-                  src={voipImage1}
+                  alt="Stuctured Cabling Solutions"
+                  src={structuredImage1}
                   className="h-full w-full object-cover"
                   width={600}
                   height={400}
@@ -99,7 +99,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  The Future of Voice Communication
+                  The Future of Structured Cabling
                 </Typography>
                 <Typography
                   className="font-normal text-blue-gray-500"
@@ -107,7 +107,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Voice Over Internet Protocol (VOIP) has transformed how
+                  Voice Over Internet Protocol (Stuctured Cabling) has transformed how
                   businesses connect. At Wire Wave, we harness this technology
                   to provide efficient, high-bandwidth solutions that outpace
                   traditional phone systems, empowering your team wherever they
@@ -128,7 +128,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Why Wire Wave VOIP?
+                Why Wire Wave Stuctured Cabling?
               </Typography>
               <Typography
                 className="mb-8 font-normal text-blue-gray-500"
@@ -136,7 +136,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                The internet revolutionized communication, and VOIP is at the
+                The internet revolutionized communication, and Stuctured Cabling is at the
                 forefront. We deliver industry-standard hardware and software
                 optimized for your business, ensuring affordability,
                 scalability, and top-tier performance—perfect for remote and
@@ -158,10 +158,10 @@ const VOIPSolutions: React.FC = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <PageTitle
-            section="VOIP Features"
+            section="Stuctured Cabling Features"
             heading="Advanced Tools for Modern Businesses"
           >
-            Our VOIP solutions are designed to meet the demands of today’s
+            Our Stuctured Cabling solutions are designed to meet the demands of today’s
             dynamic workplaces, offering features that enhance productivity and
             connectivity.
           </PageTitle>
@@ -198,7 +198,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Our team is available round-the-clock to keep your VOIP system
+                  Our team is available round-the-clock to keep your Stuctured Cabling system
                   running smoothly, with fast resolutions and expert guidance
                   whenever you need it.
                 </Typography>
@@ -274,7 +274,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Integrate VOIP effortlessly with your existing network
+                  Integrate Stuctured Cabling effortlessly with your existing network
                   infrastructure, from data systems to security solutions, for a
                   unified experience.
                 </Typography>
@@ -287,8 +287,8 @@ const VOIPSolutions: React.FC = () => {
       {/* Benefits Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Benefits" heading="Why VOIP with Wire Wave?">
-            From startups to large enterprises, our VOIP services deliver
+          <PageTitle section="Benefits" heading="Why Stuctured Cabling with Wire Wave?">
+            From startups to large enterprises, our Stuctured Cabling services deliver
             unmatched value, inspired by the internet’s transformative power.
           </PageTitle>
 
@@ -319,7 +319,7 @@ const VOIPSolutions: React.FC = () => {
                     onPointerLeaveCapture={undefined}
                   >
                     Lower Costs – Slash traditional phone expenses with our
-                    affordable VOIP plans.
+                    affordable Stuctured Cabling plans.
                   </Typography>
                 </ListItem>
                 <ListItem
@@ -454,7 +454,7 @@ const VOIPSolutions: React.FC = () => {
                 placeholder=""
               >
                 <Image
-                  alt="VOIP Benefits"
+                  alt="Stuctured Cabling Benefits"
                   src={voipImage2}
                   className="h-full w-full object-cover"
                   width={600}
@@ -482,7 +482,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  As remote work becomes the norm, our VOIP solutions provide
+                  As remote work becomes the norm, our Stuctured Cabling solutions provide
                   the flexibility and reliability your team needs to stay
                   connected, productive, and ahead of the curve.
                 </Typography>
@@ -510,7 +510,7 @@ const VOIPSolutions: React.FC = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Join the VOIP revolution with Wire Wave. Contact us to explore how
+            Join the Stuctured Cabling revolution with Wire Wave. Contact us to explore how
             our solutions can elevate your business communication to new
             heights.
           </Typography>

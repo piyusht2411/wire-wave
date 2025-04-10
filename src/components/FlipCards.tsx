@@ -1,8 +1,9 @@
 import React from "react";
 import ArrowImage from "@/assests/img/arrow.png";
 import Image from "next/image";
+import Link from "next/link";
 
-const FlipBoxComponent = ({ title, description, image }: any) => {
+const FlipBoxComponent = ({ title, description, image, href }: any) => {
   return (
     <div className="box-item shadow-lg">
       <div className="flip-box">
@@ -17,7 +18,7 @@ const FlipBoxComponent = ({ title, description, image }: any) => {
               {title}
             </h3>
             <svg
-            className="bg-white bg-opacity-50 rounded-lg mt-4"
+              className="bg-white bg-opacity-50 rounded-lg mt-4"
               xmlns="http://www.w3.org/2000/svg"
               width="90px"
               height="90px"
@@ -41,6 +42,7 @@ const FlipBoxComponent = ({ title, description, image }: any) => {
         >
           <div className="inner color-white flex flex-col justify-center items-center">
             <p className="bg-black/70 text-xl p-1.5">{description}</p>
+          <Link href={href} className="mt-2 py-4 px-4 bg-white text-black rounded-lg shadow-xl font-semibold">Know More</Link>
           </div>
         </div>
       </div>

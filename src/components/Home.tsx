@@ -142,12 +142,13 @@ function Home() {
       <section className="-mt-32 bg-white px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <div className="flex flex-wrap text-white gap-4 items-center justify-center">
-            {featuresData.map(({ title, description, image }) => (
+            {featuresData.map(({ title, description, image, href }) => (
               <FlipCards
                 key={title}
                 title={title}
                 description={description}
                 image={image}
+                href={href}
               />
             ))}
           </div>
