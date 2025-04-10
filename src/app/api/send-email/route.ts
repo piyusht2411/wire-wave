@@ -31,7 +31,6 @@ export async function POST(request: Request) {
       Your Details:
       Name: ${fullName}
       Email: ${email}
-      Phone: ${phone || "Not provided"}
       Message: ${message}
 
       Best regards,
