@@ -4,59 +4,61 @@ interface data {
   title: string;
   icon: React.FC<React.SVGProps<SVGSVGElement>>;
   description: string;
-  href:string;
+  href: string;
   image: string;
 }
 
 const featuresData: data[] = [
-  {
-    title: "Network Infrastructure Solutions",
-    image: "/images/network.png",
-    href: "/network-infrastructure",
-    icon: ChatBubbleBottomCenterTextIcon,
-    description:
-      "Delivering top-notch network infrastructure services tailored to enterprises of all sizes across Canada.",
-  },
-  {
-    title: "Wireless Technology Expert",
-    image: "/images/wireless.avif",
-    href: "/wireless-technology",
-    icon: ChatBubbleBottomCenterTextIcon,
-    description:
-      "Providing cutting-edge wireless technology solutions to ensure seamless communication and connectivity.",
-  },
   {
     title: "Structured Cabling Solutions",
     image: "/images/structuredCabling.png",
     href: "/structured-cabling",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "Expert consultation, implementation, and support for structured cabling systems essential to IT networks.",
+      "Designing and installing high-performance structured cabling systems to support robust and scalable IT networks.",
   },
   {
-    title: "VoIP System Integration",
+    title: "Security System",
+    image: "/images/security.jpg",
+    href: "/security-system",
+    icon: ChatBubbleBottomCenterTextIcon,
+    description:
+      "Comprehensive surveillance and access control systems to safeguard business environments from potential threats.",
+  },
+  {
+    title: "Nurse Call System",
+    image: "/images/technicalSupport.png",
+    href: "/contact-us",
+    icon: ChatBubbleBottomCenterTextIcon,
+    description:
+      "Advanced nurse call systems that enhance patient care and staff responsiveness in healthcare facilities.",
+  },
+  {
+    title: "Infrastructure Support",
+    image: "/images/customNetwork.png",
+    href: "/infrastructure-support",
+    icon: ChatBubbleBottomCenterTextIcon,
+    description:
+      "Reliable infrastructure support to maintain, optimize, and troubleshoot network systems for continuous operation.",
+  },
+  {
+    title: "Network Design",
+    image: "/images/network.png",
+    href: "/custom-network",
+    icon: ChatBubbleBottomCenterTextIcon,
+    description:
+      "Expert network design services to build customized, high-efficiency networks tailored to business demands.",
+  },
+  {
+    title: "VoIP/Wifi System Integration",
     image: "/images/voip.png",
     href: "/voip-solutions",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "Specializing in affordable VoIP systems with 24/7 support for efficient and reliable business communications.",
+      "Seamless integration of VoIP systems for cost-effective and scalable voice communication across teams.",
   },
-  {
-    title: "Custom Network Solutions",
-    image: "/images/customNetwork.png",
-    href: "/custom-network",
-    icon: ChatBubbleBottomCenterTextIcon,
-    description:
-      "Consulting and deploying networking systems that align with specific business goals and requirements.",
-  },
-  {
-    title: "Reliable Technical Support",
-    image: "/images/technicalSupport.png",
-    href:"/contact-us",
-    icon: ChatBubbleBottomCenterTextIcon,
-    description:
-      "Dedicated 24/7 customer service to ensure uninterrupted network performance and client satisfaction.",
-  },
+
 ];
+
 
 export default featuresData;

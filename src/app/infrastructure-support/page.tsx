@@ -28,7 +28,7 @@ const VOIPSolutions: React.FC = () => {
     <>
       {/* Hero Section */}
       <div className="relative flex h-[70vh] pt-32 content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-[70vh] w-full bg-[url('../assests/img/voip-banner.jpg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-[70vh] w-full bg-[url('/images/our-services-banner.jpeg')] bg-cover bg-center" />
         <div className="absolute top-0 h-[70vh] w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -41,7 +41,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Network Infrastructure Solutions
+                Infrastructure Support
               </Typography>
               <Typography
                 variant="lead"
@@ -51,10 +51,9 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Reliable and scalable network infrastructure solutions designed
-                to boost performance, ensure security, and support seamless
-                connectivity for businesses of all sizes. Tailored to meet your
-                unique needs.
+                End-to-end infrastructure support services tailored to keep your
+                business systems efficient, secure, and scalable. Optimize
+                performance and minimize downtime with expert hands-on support.
               </Typography>
             </div>
           </div>
@@ -79,7 +78,7 @@ const VOIPSolutions: React.FC = () => {
                 placeholder=""
               >
                 <Image
-                  alt="Network Infrastructure Solution"
+                  alt="Infrastructure Support"
                   src={networkImage1}
                   className="h-full w-full object-cover"
                   width={600}
@@ -99,7 +98,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Usage of network infrastructure solutions
+                  Importance of Infrastructure Support
                 </Typography>
                 <Typography
                   className="font-normal text-blue-gray-500"
@@ -107,11 +106,11 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Network infrastructure solutions are essential for modern
-                  businesses, enabling seamless connectivity, data transfer, and
-                  communication. They support various applications, from cloud
-                  computing to remote work, ensuring efficient operations and
-                  enhanced productivity.
+                  Infrastructure support is critical to maintaining your IT
+                  environment. It ensures stability, reliability, and
+                  performance across hardware, software, networks, and
+                  systems—so your business stays up and running without
+                  disruptions.
                 </Typography>
               </CardBody>
             </Card>
@@ -128,7 +127,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Why to use Wire Wave for network infrastructure solutions?
+                Why Choose Wire Wave for Infrastructure Support?
               </Typography>
               <Typography
                 className="mb-8 font-normal text-blue-gray-500"
@@ -136,11 +135,10 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Wire Wave delivers robust network infrastructure solutions
-                tailored to your business needs. From secure LAN/WAN setups to
-                cloud integration and wireless networking, we ensure high-speed
-                connectivity, scalability, and top-tier security to keep your
-                operations running smoothly and efficiently
+                Wire Wave delivers expert infrastructure support solutions
+                designed to align with your business operations. From
+                troubleshooting and maintenance to strategic scaling, our team
+                ensures your IT foundation is always solid and optimized.
               </Typography>
               <a
                 href="/contact-us"
@@ -158,10 +156,12 @@ const VOIPSolutions: React.FC = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <PageTitle
-            section="Network Infrastructure Solutions"
-            heading="Benefits of using infrastructure of network"
+            section="Infrastructure Support"
+            heading="Key Benefits of Strong Infrastructure Support"
           >
-            Enhances connectivity, boosts performance, ensures security, and supports business scalability.
+            Maximize system uptime, improve performance, and secure your
+            business continuity with our proactive and reactive support
+            services.
           </PageTitle>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -196,9 +196,9 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Our team is available round-the-clock to keep your Network Infrastructure Solution system
-                  running smoothly, with fast resolutions and expert guidance
-                  whenever you need it.
+                  Our infrastructure experts are available anytime to solve
+                  issues, minimize downtime, and keep your systems operational
+                  around the clock.
                 </Typography>
               </CardBody>
             </Card>
@@ -234,9 +234,9 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  With encrypted calls and redundant systems, we ensure your
-                  communications are secure and uninterrupted, even under high
-                  demand.
+                  We ensure your systems remain secure and backed by reliable
+                  infrastructure—even during unexpected surges or technical
+                  failures.
                 </Typography>
               </CardBody>
             </Card>
@@ -272,9 +272,9 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Integrate Network Infrastructure Solution effortlessly with your existing network
-                  infrastructure, from data systems to security solutions, for a
-                  unified experience.
+                  Integrate infrastructure support smoothly with your digital
+                  ecosystem, helping all systems work cohesively and
+                  efficiently.
                 </Typography>
               </CardBody>
             </Card>
@@ -285,9 +285,12 @@ const VOIPSolutions: React.FC = () => {
       {/* Benefits Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Benefits" heading="Why Network Infrastructure Solution with Wire Wave?">
-            From startups to large enterprises, our Network Infrastructure Solution services deliver
-            unmatched value, inspired by the internet’s transformative power.
+          <PageTitle
+            section="Benefits"
+            heading="Why Infrastructure Support with Wire Wave?"
+          >
+            We deliver strategic infrastructure support that grows with your
+            business and keeps your systems resilient, agile, and future-ready.
           </PageTitle>
 
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -298,10 +301,10 @@ const VOIPSolutions: React.FC = () => {
                 onPointerLeaveCapture={undefined}
               >
                 <ListItem
-                  className="p-0 mb-4"
                   placeholder={undefined}
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
+                  className="p-0 mb-4"
                 >
                   <ListItemPrefix
                     placeholder={undefined}
@@ -311,20 +314,20 @@ const VOIPSolutions: React.FC = () => {
                     <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
                   </ListItemPrefix>
                   <Typography
-                    className="font-medium"
                     placeholder={undefined}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
+                    className="font-medium"
                   >
-                    Lower Costs – Slash traditional phone expenses with our
-                    affordable Network Infrastructure Solution plans.
+                    Reduced Downtime – Minimize disruptions with proactive
+                    monitoring and support.
                   </Typography>
                 </ListItem>
                 <ListItem
-                  className="p-0 mb-4"
                   placeholder={undefined}
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
+                  className="p-0 mb-4"
                 >
                   <ListItemPrefix
                     placeholder={undefined}
@@ -334,20 +337,20 @@ const VOIPSolutions: React.FC = () => {
                     <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
                   </ListItemPrefix>
                   <Typography
-                    className="font-medium"
                     placeholder={undefined}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
+                    className="font-medium"
                   >
-                    Higher Scalability – Add lines or features effortlessly as
-                    your business expands.
+                    Scalable Growth – Add systems and users seamlessly as your
+                    business evolves.
                   </Typography>
                 </ListItem>
                 <ListItem
-                  className="p-0 mb-4"
                   placeholder={undefined}
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
+                  className="p-0 mb-4"
                 >
                   <ListItemPrefix
                     placeholder={undefined}
@@ -357,20 +360,20 @@ const VOIPSolutions: React.FC = () => {
                     <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
                   </ListItemPrefix>
                   <Typography
-                    className="font-medium"
                     placeholder={undefined}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
+                    className="font-medium"
                   >
-                    Clearer Voice Quality – Enjoy pristine audio with our
-                    high-bandwidth solutions.
+                    Centralized Management – Monitor and control everything from
+                    a single dashboard.
                   </Typography>
                 </ListItem>
                 <ListItem
-                  className="p-0 mb-4"
                   placeholder={undefined}
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
+                  className="p-0 mb-4"
                 >
                   <ListItemPrefix
                     placeholder={undefined}
@@ -380,20 +383,20 @@ const VOIPSolutions: React.FC = () => {
                     <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
                   </ListItemPrefix>
                   <Typography
-                    className="font-medium"
                     placeholder={undefined}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
+                    className="font-medium"
                   >
-                    Increased Accessibility – Connect from anywhere with
-                    internet access, ideal for remote teams.
+                    Data Integrity – Prevent data loss and maintain compliance
+                    with strong backups.
                   </Typography>
                 </ListItem>
                 <ListItem
-                  className="p-0 mb-4"
                   placeholder={undefined}
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
+                  className="p-0 mb-4"
                 >
                   <ListItemPrefix
                     placeholder={undefined}
@@ -403,36 +406,13 @@ const VOIPSolutions: React.FC = () => {
                     <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
                   </ListItemPrefix>
                   <Typography
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
                     className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
                   >
-                    Advanced Features – Benefit from call forwarding,
-                    voicemail-to-email, and more for small and large teams.
-                  </Typography>
-                </ListItem>
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Ease of Portability – Take your number anywhere, simplifying
-                    moves or remote work.
+                    Increased Efficiency – Let your team focus on core tasks
+                    while we manage the infrastructure.
                   </Typography>
                 </ListItem>
               </List>
@@ -452,7 +432,7 @@ const VOIPSolutions: React.FC = () => {
                 placeholder=""
               >
                 <Image
-                  alt="Network Infrastructure Solution Benefits"
+                  alt="Infrastructure Support Benefits"
                   src={voipImage2}
                   className="h-full w-full object-cover"
                   width={600}
@@ -472,7 +452,7 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  Empowering Remote Work
+                  Empowering Operational Continuity
                 </Typography>
                 <Typography
                   className="font-normal text-blue-gray-500"
@@ -480,9 +460,9 @@ const VOIPSolutions: React.FC = () => {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  As remote work becomes the norm, our Network Infrastructure Solution solutions provide
-                  the flexibility and reliability your team needs to stay
-                  connected, productive, and ahead of the curve.
+                  With dedicated infrastructure support, your operations remain
+                  efficient and resilient, even in the face of change. We keep
+                  your backend strong—so you can focus on growth.
                 </Typography>
               </CardBody>
             </Card>
@@ -500,7 +480,7 @@ const VOIPSolutions: React.FC = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Transform Your Communications Today
+            Strengthen Your Infrastructure Today
           </Typography>
           <Typography
             className="mx-auto mb-12 max-w-3xl opacity-80"
@@ -508,9 +488,9 @@ const VOIPSolutions: React.FC = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Join the Network Infrastructure Solution revolution with Wire Wave. Contact us to explore how
-            our solutions can elevate your business communication to new
-            heights.
+            Partner with Wire Wave for expert infrastructure support that powers
+            your technology backbone. Let’s build a stronger, smarter, and more
+            secure future—together.
           </Typography>
           <a
             href="/contact-us"

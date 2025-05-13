@@ -18,6 +18,7 @@ import {
 } from "@heroicons/react/24/solid";
 import PageTitle from "@/components/PageTitle";
 import { toast } from "sonner";
+import Link from "next/link";
 // import Image from "next/image";
 // import contactBanner from "@/assests/img/contact-banner.jpg";
 
@@ -71,7 +72,7 @@ const ContactUs: React.FC = () => {
     <>
       {/* Hero Section */}
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('../assests/img/contact-us-banner.jpg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('/images/contact-us-banner.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -261,7 +262,7 @@ const ContactUs: React.FC = () => {
                 </CardBody>
               </Card>
 
-              <Card
+              {/* <Card
                 color="transparent"
                 shadow={false}
                 className="text-blue-gray-900"
@@ -343,7 +344,7 @@ const ContactUs: React.FC = () => {
                     </div>
                   </div>
                 </CardBody>
-              </Card>
+              </Card> */}
 
               <Card
                 color="transparent"
@@ -412,9 +413,9 @@ const ContactUs: React.FC = () => {
             Have a question or ready to start? Contact Wire Wave today and let
             us connect your vision to endless possibilities.
           </Typography>
-          <Button variant="filled" color="white" size="lg">
+          <Link href={'/contact-us'} color="white" className="bg-black px-6 py-3 rounded-lg text-lg ">
             Send Us a Message
-          </Button>
+          </Link>
         </div>
       </section>
     </>
