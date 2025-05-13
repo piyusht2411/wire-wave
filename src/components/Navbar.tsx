@@ -30,9 +30,9 @@ function Navbar({
   brandName = "Wire Wave",
   routes,
   action = (
-    <Link href="/voip-solutions">
+    <Link href="/contact-us">
       <Button variant="gradient" size="sm" fullWidth>
-        VoIP Solutions
+        Get a Quote
       </Button>
     </Link>
   ),
