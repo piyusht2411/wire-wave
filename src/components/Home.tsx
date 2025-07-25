@@ -84,25 +84,57 @@ function Home() {
   const companies = [
     {
       name: `Google`,
-      img: `company1.png`
+      img: `company6.jpg`,
     },
     {
-      name:`Facebook`,
-      img:`company2.png`
+      name: `Facebook`,
+      img: `company7.jpg`,
     },
     {
-      name:`Pinterest`,
-      img:`company3.png`
+      name: `Pinterest`,
+      img: `company8.jpg`,
     },
     {
-      name:`Blackrock`,
-      img:`company4.png`
+      name: `Blackrock`,
+      img: `company9.jpg`,
     },
     {
-      name:`Amazon`,
-      img:`company5.jpg`
-    }
-  ]
+      name: `Amazon`,
+      img: `company10.jpg`,
+    },
+    {
+      name: `Netflix`,
+      img: `company11.jpg`,
+    },
+    {
+      name: `Apple`,
+      img: `company12.jpg`,
+    },
+    {
+      name: `Tesla`,
+      img: `company13.jpg`,
+    },
+    {
+      name: `Microsoft`,
+      img: `company14.jpg`,
+    },
+    {
+      name: `IBM`,
+      img: `company15.jpg`,
+    },
+    {
+      name: `Intel`,
+      img: `company16.jpg`,
+    },
+    {
+      name: `Adobe`,
+      img: `company17.jpg`,
+    },
+    {
+      name: `Salesforce`,
+      img: `company18.jpg`,
+    },
+  ];
 
   return (
     <>
@@ -244,7 +276,10 @@ function Home() {
       </section>
       <section className="px-4 pt-10 pb-20 lg:pt-20">
         <div className="container mx-auto">
-          <PageTitle section="Our Clients" heading="Loved by many. Trusted by all.">
+          <PageTitle
+            section="Our Clients"
+            heading="Loved by many. Trusted by all."
+          >
             Our clients are our biggest supporters. Would you like to know what
             they think about us? Take a look for yourself in the testimonials
             below.

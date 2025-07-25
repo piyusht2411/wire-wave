@@ -11,6 +11,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Logo from "@/assests/img/logo-2.png";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 interface RouteItem {
   name: string;
@@ -38,6 +39,19 @@ function Navbar({
   ),
 }: NavbarProps) {
   const [openNav, setOpenNav] = useState(false);
+  const pathname = usePathname();
+  const servicePaths = [
+    "/structured-cabling",
+    "/cable-installation",
+    "/networking",
+    "/security-system",
+    "/infrastructure-support",
+    "/custom-network",
+    "/voip-solutions",
+    "/nurse-call-system",
+  ];
+
+  const isCablePath = servicePaths?.includes(pathname);
 
   useEffect(() => {
     const handleResize = () => {
@@ -67,7 +81,9 @@ function Navbar({
               href={href}
               target={target}
               rel="noopener noreferrer"
-              className="flex items-center gap-1 p-1 font-bold"
+              className={`flex items-center gap-1 p-1 font-bold ${
+                isCablePath ? "text-white" : "text-white"
+              }`}
             >
               {icon &&
                 React.createElement(icon, {
@@ -79,7 +95,9 @@ function Navbar({
             <Link
               href={path || "/"}
               target={target}
-              className="flex items-center gap-1 p-1 font-bold"
+              className={`flex items-center gap-1 p-1 font-bold ${
+                isCablePath ? "text-white" : "text-white"
+              }`}
             >
               {icon &&
                 React.createElement(icon, {
@@ -96,7 +114,7 @@ function Navbar({
   return (
     <MTNavbar
       color="transparent"
-      className="p-3"
+      className={`p-3 ${isCablePath ? "w-full max-w-full bg-black pb-0" : ""}`}
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
       placeholder=""

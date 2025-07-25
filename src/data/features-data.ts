@@ -28,7 +28,7 @@ const featuresData: data[] = [
   {
     title: "Nurse Call System",
     image: "/images/technicalSupport.png",
-    href: "/contact-us",
+    href: "/nurse-call-system",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
       "Advanced nurse call systems that enhance patient care and staff responsiveness in healthcare facilities.",
@@ -57,8 +57,6 @@ const featuresData: data[] = [
     description:
       "Seamless integration of VoIP systems for cost-effective and scalable voice communication across teams.",
   },
-
 ];
-
 
 export default featuresData;

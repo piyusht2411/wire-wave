@@ -11,19 +11,18 @@ import {
   CogIcon,
   LockClosedIcon,
   CheckCircleIcon,
-
 } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import {
-  
   CardHeader,
-  
   List,
   ListItem,
   ListItemPrefix,
 } from "@material-tailwind/react";
 import PageTitle from "@/components/PageTitle";
 import aboutInfra from "@/assests/img/team-strength.png";
+import featuresData from "@/data/features-data";
+import FlipCards from "@/components/FlipCards";
 
 const servicesData = [
   {
@@ -116,7 +115,7 @@ const Services: React.FC = () => {
             how we can drive your business forward.
           </PageTitle>
 
-          <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          {/* <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
             {servicesData.map(({ icon: Icon, title, description }, index) => (
               <Card
                 key={index}
@@ -155,6 +154,17 @@ const Services: React.FC = () => {
                 </CardBody>
               </Card>
             ))}
+          </div> */}
+          <div className="mt-20 flex flex-wrap text-white gap-4 items-center justify-center">
+            {featuresData.map(({ title, description, image, href }) => (
+              <FlipCards
+                key={title}
+                title={title}
+                description={description}
+                image={image}
+                href={href}
+              />
+            ))}
           </div>
 
           <div className="mt-16 text-center">
@@ -192,239 +202,239 @@ const Services: React.FC = () => {
         </div>
       </section>
 
-        {/* Team Section */}
-            <section className="py-20 px-4">
-              <div className="container mx-auto">
-                <PageTitle
-                  section="Our Team"
-                  heading="Meet the Professionals Behind Wire Wave"
+      {/* Team Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto">
+          <PageTitle
+            section="Our Team"
+            heading="Meet the Professionals Behind Wire Wave"
+          >
+            At Wire Wave, we know you'll enjoy working with our professional,
+            service-oriented staff. Our team of certified technicians, project
+            managers, and support personnel are dedicated to providing
+            exceptional service and innovative solutions for all your network
+            infrastructure needs.
+          </PageTitle>
+
+          <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <Card
+              className="shadow-lg border shadow-gray-500/10 rounded-lg"
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              placeholder=""
+            >
+              <CardHeader
+                floated={false}
+                className="relative h-80"
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                placeholder=""
+              >
+                <Image
+                  alt="Infrastructure Solutions"
+                  src={aboutInfra}
+                  className="h-full w-full object-cover"
+                  width={600}
+                  height={400}
+                />
+              </CardHeader>
+              <CardBody
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                placeholder=""
+              >
+                <Typography
+                  variant="h5"
+                  color="blue-gray"
+                  className="mb-3 font-bold"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
-                  At Wire Wave, we know you'll enjoy working with our professional,
-                  service-oriented staff. Our team of certified technicians, project
-                  managers, and support personnel are dedicated to providing
-                  exceptional service and innovative solutions for all your network
-                  infrastructure needs.
-                </PageTitle>
-      
-                <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  <Card
-                    className="shadow-lg border shadow-gray-500/10 rounded-lg"
+                  Cutting-Edge Infrastructure Solutions
+                </Typography>
+                <Typography
+                  className="font-normal text-blue-gray-500"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  Our team specializes in a wide range of services including
+                  data and voice cabling, data center design and implementation,
+                  fiber optic installations, security camera systems, and key
+                  access control systems. With our professional expertise and
+                  state-of-the-art equipment, we ensure seamless integration and
+                  optimal performance for all your network infrastructure needs.
+                </Typography>
+              </CardBody>
+            </Card>
+
+            <div>
+              <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
+                <UserGroupIcon className="h-8 w-8 text-white" />
+              </div>
+              <Typography
+                variant="h3"
+                className="mb-3 font-bold"
+                color="blue-gray"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Core Strengths of Our Team
+              </Typography>
+
+              <List
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                <ListItem
+                  className="p-0"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  <ListItemPrefix
+                    placeholder={undefined}
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
-                    placeholder=""
                   >
-                    <CardHeader
-                      floated={false}
-                      className="relative h-80"
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                      placeholder=""
-                    >
-                      <Image
-                        alt="Infrastructure Solutions"
-                        src={aboutInfra}
-                        className="h-full w-full object-cover"
-                        width={600}
-                        height={400}
-                      />
-                    </CardHeader>
-                    <CardBody
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                      placeholder=""
-                    >
-                      <Typography
-                        variant="h5"
-                        color="blue-gray"
-                        className="mb-3 font-bold"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        Cutting-Edge Infrastructure Solutions
-                      </Typography>
-                      <Typography
-                        className="font-normal text-blue-gray-500"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        Our team specializes in a wide range of services including
-                        data and voice cabling, data center design and implementation,
-                        fiber optic installations, security camera systems, and key
-                        access control systems. With our professional expertise and
-                        state-of-the-art equipment, we ensure seamless integration and
-                        optimal performance for all your network infrastructure needs.
-                      </Typography>
-                    </CardBody>
-                  </Card>
-      
-                  <div>
-                    <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
-                      <UserGroupIcon className="h-8 w-8 text-white" />
-                    </div>
-                    <Typography
-                      variant="h3"
-                      className="mb-3 font-bold"
-                      color="blue-gray"
-                      placeholder={undefined}
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                    >
-                      Core Strengths of Our Team
-                    </Typography>
-      
-                    <List
-                      placeholder={undefined}
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                    >
-                      <ListItem
-                        className="p-0"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        <ListItemPrefix
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                        </ListItemPrefix>
-                        <Typography
-                          className="font-medium"
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          100% Satisfaction Guarantee – Or we won't charge you a penny
-                        </Typography>
-                      </ListItem>
-                      <ListItem
-                        className="p-0"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        <ListItemPrefix
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                        </ListItemPrefix>
-                        <Typography
-                          className="font-medium"
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          Project Management Approach – Which is hassle-free for
-                          clients
-                        </Typography>
-                      </ListItem>
-                      <ListItem
-                        className="p-0"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        <ListItemPrefix
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                        </ListItemPrefix>
-                        <Typography
-                          className="font-medium"
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          Diversified Services – Our support and knowledge is second
-                          to none
-                        </Typography>
-                      </ListItem>
-                      <ListItem
-                        className="p-0"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        <ListItemPrefix
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                        </ListItemPrefix>
-                        <Typography
-                          className="font-medium"
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          Experienced and certified technicians – All technical and
-                          workplace certifications
-                        </Typography>
-                      </ListItem>
-                      <ListItem
-                        className="p-0"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        <ListItemPrefix
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                        </ListItemPrefix>
-                        <Typography
-                          className="font-medium"
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          Service vehicles well equipped with tools and testing
-                          equipment
-                        </Typography>
-                      </ListItem>
-                      <ListItem
-                        className="p-0"
-                        placeholder={undefined}
-                        onPointerEnterCapture={undefined}
-                        onPointerLeaveCapture={undefined}
-                      >
-                        <ListItemPrefix
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          <CheckCircleIcon className="h-5 w-5 text-blue-600" />
-                        </ListItemPrefix>
-                        <Typography
-                          className="font-medium"
-                          placeholder={undefined}
-                          onPointerEnterCapture={undefined}
-                          onPointerLeaveCapture={undefined}
-                        >
-                          Subcontract Services – Unmarked vans, certified technicians,
-                          and guaranteed expertise
-                        </Typography>
-                      </ListItem>
-                    </List>
-      
-                    <Button variant="filled" className="mt-8">
-                      Meet Our Team
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </section>
+                    <CheckCircleIcon className="h-5 w-5 text-blue-600" />
+                  </ListItemPrefix>
+                  <Typography
+                    className="font-medium"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    100% Satisfaction Guarantee – Or we won't charge you a penny
+                  </Typography>
+                </ListItem>
+                <ListItem
+                  className="p-0"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  <ListItemPrefix
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    <CheckCircleIcon className="h-5 w-5 text-blue-600" />
+                  </ListItemPrefix>
+                  <Typography
+                    className="font-medium"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Project Management Approach – Which is hassle-free for
+                    clients
+                  </Typography>
+                </ListItem>
+                <ListItem
+                  className="p-0"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  <ListItemPrefix
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    <CheckCircleIcon className="h-5 w-5 text-blue-600" />
+                  </ListItemPrefix>
+                  <Typography
+                    className="font-medium"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Diversified Services – Our support and knowledge is second
+                    to none
+                  </Typography>
+                </ListItem>
+                <ListItem
+                  className="p-0"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  <ListItemPrefix
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    <CheckCircleIcon className="h-5 w-5 text-blue-600" />
+                  </ListItemPrefix>
+                  <Typography
+                    className="font-medium"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Experienced and certified technicians – All technical and
+                    workplace certifications
+                  </Typography>
+                </ListItem>
+                <ListItem
+                  className="p-0"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  <ListItemPrefix
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    <CheckCircleIcon className="h-5 w-5 text-blue-600" />
+                  </ListItemPrefix>
+                  <Typography
+                    className="font-medium"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Service vehicles well equipped with tools and testing
+                    equipment
+                  </Typography>
+                </ListItem>
+                <ListItem
+                  className="p-0"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
+                  <ListItemPrefix
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    <CheckCircleIcon className="h-5 w-5 text-blue-600" />
+                  </ListItemPrefix>
+                  <Typography
+                    className="font-medium"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Subcontract Services – Unmarked vans, certified technicians,
+                    and guaranteed expertise
+                  </Typography>
+                </ListItem>
+              </List>
+
+              <Button variant="filled" className="mt-8">
+                Meet Our Team
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

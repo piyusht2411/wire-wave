@@ -11,7 +11,7 @@ import {
   ListItemPrefix,
 } from "@material-tailwind/react";
 import {
-  PhoneIcon,
+  WifiIcon,
   ClockIcon,
   ShieldCheckIcon,
   CogIcon,
@@ -21,517 +21,204 @@ import {
 import PageTitle from "@/components/PageTitle";
 import Image from "next/image";
 import structuredImage1 from "@/assests/img/structured.jpg";
-import voipImage2 from "@/assests/img/voip-image2.jpg";
+import cablingImage2 from "@/assests/img/voip-image2.jpg";
+import { usePathname } from "next/navigation";
 
-const VOIPSolutions: React.FC = () => {
+const StructuredCablingSolutions: React.FC = () => {
+  const pathname = usePathname();
+  const slug = pathname?.split("/").filter(Boolean).pop() || "";
+
+  const formattedName = slug
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
   return (
     <>
       {/* Hero Section */}
-      <div className="relative flex h-[70vh] pt-32 content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-[70vh] w-full bg-[url('/images/voip-banner.jpg')] bg-cover bg-center" />
-        <div className="absolute top-0 h-[70vh] w-full bg-black/60 bg-cover bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
+      <div className="relative flex h-[40vh] content-center items-center justify-center pt-16 pb-32">
+        <div className="absolute top-0 h-[40vh] w-full bg-[url('/images/voip-banner.jpg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-[40vh] w-full bg-black/60 bg-cover bg-center" />
+        <div className="max-w-8xl container absolute top-[58%] mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-6 font-black"
+                className="mb-6 font-black text-2xl md:text-3xl lg:text-4xl"
                 placeholder={undefined}
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Stuctured Cabling Solutions
+                Structured Cabling
               </Typography>
-              <Typography
-                variant="lead"
-                color="white"
-                className="opacity-80"
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                Revolutionize your business communication with Wire Wave’s Stuctured Cabling
-                services. Affordable, scalable, and backed by 24/7 support, our
-                solutions deliver crystal-clear voice quality and seamless
-                connectivity for teams near and far.
-              </Typography>
+              <div className="text-sm text-gray-400">
+                Home &bull; <span className="text-white">{formattedName} </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Stuctured Cabling Overview Section */}
-      <section className="mt-8 bg-white px-4 pb-20 pt-4">
+      {/* Main Content Section */}
+      <section className="py-16 px-4 bg-white">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <Card
-              className="shadow-lg border shadow-gray-500/10 rounded-lg"
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
-              placeholder=""
-            >
-              <CardHeader
-                floated={false}
-                className="relative h-80"
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            {/* Left Content */}
+            <div className="space-y-6">
+              {/* <Typography
+                variant="h3"
+                className="font-bold text-gray-800 text-2xl md:text-3xl"
+                placeholder={undefined}
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
-                placeholder=""
               >
+                Structured Cabling
+              </Typography> */}
+
+              <Typography
+                className="text-gray-600 leading-relaxed text-base md:text-lg"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Wire Wave specializes in designing and implementation of
+                structured cabling systems including copper and fiber cables. We
+                offer a portfolio of precision solutions to address your
+                communications cabling, right from designing to installation and
+                testing. Our cabling solutions include:
+              </Typography>
+
+              <div className="space-y-3">
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <Typography
+                    className="text-gray-700"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Cat5e, Cat6, Cat6e, Cat6A (FT4 and FT6 Plenum)
+                  </Typography>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <Typography
+                    className="text-gray-700"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Copper Voice
+                  </Typography>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <Typography
+                    className="text-gray-700"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Coaxial
+                  </Typography>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <Typography
+                    className="text-gray-700"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Gigabit Backbone
+                  </Typography>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <Typography
+                    className="text-gray-700"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Inside, Outside and Multi-Site Cabling
+                  </Typography>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  <Typography
+                    className="text-gray-700"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
+                    Cabling Infrastructure Testing, Verification and
+                    Certification
+                  </Typography>
+                </div>
+              </div>
+
+              <Typography
+                className="text-gray-600 leading-relaxed text-base md:text-lg"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
+                Whether it be a simple home, or small business network, your
+                structured cabling installation will be done in a professional
+                and timely manner. Depending on the size of the installation,
+                all terminations from the user end will terminate in rack/wall
+                mountable panels and can be patched into existing network
+                switches and routers as required. Customer satisfaction is our
+                priority, and we are currently servicing Toronto and the
+                surrounding areas.
+              </Typography>
+            </div>
+
+            {/* Right Image */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="w-full max-w-md">
                 <Image
-                  alt="Stuctured Cabling Solutions"
+                  alt="Structured Cabling Network"
                   src={structuredImage1}
-                  className="h-full w-full object-cover"
-                  width={600}
+                  className="w-full h-auto object-cover rounded-lg shadow-lg"
+                  width={500}
                   height={400}
                 />
-              </CardHeader>
-              <CardBody
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <Typography
-                  variant="h5"
-                  color="blue-gray"
-                  className="mb-3 font-bold"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  The Future of Structured Cabling
-                </Typography>
-                <Typography
-                  className="font-normal text-blue-gray-500"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  Voice Over Internet Protocol (Stuctured Cabling) has transformed how
-                  businesses connect. At Wire Wave, we harness this technology
-                  to provide efficient, high-bandwidth solutions that outpace
-                  traditional phone systems, empowering your team wherever they
-                  are.
-                </Typography>
-              </CardBody>
-            </Card>
-
-            <div>
-              <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
-                <PhoneIcon className="h-8 w-8 text-white" />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action Section */}
+      <section className="py-16 px-4 bg-blue-600 text-white">
+        <div className="container mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+            <div className="text-center lg:text-left">
               <Typography
-                variant="h3"
-                className="mb-3 font-bold"
-                color="blue-gray"
+                variant="h2"
+                className="mb-4 font-bold text-2xl md:text-3xl lg:text-4xl"
                 placeholder={undefined}
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Why Wire Wave Stuctured Cabling?
+                Contact Us To Get A Free Estimate!
               </Typography>
-              <Typography
-                className="mb-8 font-normal text-blue-gray-500"
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                The internet revolutionized communication, and Stuctured Cabling is at the
-                forefront. We deliver industry-standard hardware and software
-                optimized for your business, ensuring affordability,
-                scalability, and top-tier performance—perfect for remote and
-                on-site teams alike.
-              </Typography>
+            </div>
+            <div className="flex-shrink-0">
               <a
                 href="/contact-us"
-                color="white"
-                className="mr-4 border-[1px] text-white bg-blue-gray-900 font-semibold px-6 py-4 rounded-lg border-white"
+                className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300"
               >
-                Get a Quote
+                Contact Us
               </a>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto">
-          <PageTitle
-            section="Stuctured Cabling Features"
-            heading="Advanced Tools for Modern Businesses"
-          >
-            Our Stuctured Cabling solutions are designed to meet the demands of today’s
-            dynamic workplaces, offering features that enhance productivity and
-            connectivity.
-          </PageTitle>
-
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card
-              className="shadow-lg border shadow-gray-500/10 rounded-lg hover:shadow-xl transition-shadow duration-300"
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
-              placeholder=""
-            >
-              <CardBody
-                className="text-center"
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full bg-blue-gray-900 p-3 text-center shadow-lg">
-                  <ClockIcon className="h-6 w-6 text-white" />
-                </div>
-                <Typography
-                  variant="h5"
-                  color="blue-gray"
-                  className="mb-3 font-bold"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  24/7 Support
-                </Typography>
-                <Typography
-                  className="font-normal text-blue-gray-500"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  Our team is available round-the-clock to keep your Stuctured Cabling system
-                  running smoothly, with fast resolutions and expert guidance
-                  whenever you need it.
-                </Typography>
-              </CardBody>
-            </Card>
-
-            <Card
-              className="shadow-lg border shadow-gray-500/10 rounded-lg hover:shadow-xl transition-shadow duration-300"
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
-              placeholder=""
-            >
-              <CardBody
-                className="text-center"
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full bg-blue-gray-900 p-3 text-center shadow-lg">
-                  <ShieldCheckIcon className="h-6 w-6 text-white" />
-                </div>
-                <Typography
-                  variant="h5"
-                  color="blue-gray"
-                  className="mb-3 font-bold"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  Secure & Reliable
-                </Typography>
-                <Typography
-                  className="font-normal text-blue-gray-500"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  With encrypted calls and redundant systems, we ensure your
-                  communications are secure and uninterrupted, even under high
-                  demand.
-                </Typography>
-              </CardBody>
-            </Card>
-
-            <Card
-              className="shadow-lg border shadow-gray-500/10 rounded-lg hover:shadow-xl transition-shadow duration-300"
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
-              placeholder=""
-            >
-              <CardBody
-                className="text-center"
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-full bg-blue-gray-900 p-3 text-center shadow-lg">
-                  <CogIcon className="h-6 w-6 text-white" />
-                </div>
-                <Typography
-                  variant="h5"
-                  color="blue-gray"
-                  className="mb-3 font-bold"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  Seamless Integration
-                </Typography>
-                <Typography
-                  className="font-normal text-blue-gray-500"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  Integrate Stuctured Cabling effortlessly with your existing network
-                  infrastructure, from data systems to security solutions, for a
-                  unified experience.
-                </Typography>
-              </CardBody>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto">
-          <PageTitle section="Benefits" heading="Why Stuctured Cabling with Wire Wave?">
-            From startups to large enterprises, our Stuctured Cabling services deliver
-            unmatched value, inspired by the internet’s transformative power.
-          </PageTitle>
-
-          <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <List
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Lower Costs – Slash traditional phone expenses with our
-                    affordable Stuctured Cabling plans.
-                  </Typography>
-                </ListItem>
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Higher Scalability – Add lines or features effortlessly as
-                    your business expands.
-                  </Typography>
-                </ListItem>
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Clearer Voice Quality – Enjoy pristine audio with our
-                    high-bandwidth solutions.
-                  </Typography>
-                </ListItem>
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Increased Accessibility – Connect from anywhere with
-                    internet access, ideal for remote teams.
-                  </Typography>
-                </ListItem>
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Advanced Features – Benefit from call forwarding,
-                    voicemail-to-email, and more for small and large teams.
-                  </Typography>
-                </ListItem>
-                <ListItem
-                  className="p-0 mb-4"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  <ListItemPrefix
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    <CheckCircleIcon className="h-5 w-5 text-blue-600 mr-2" />
-                  </ListItemPrefix>
-                  <Typography
-                    className="font-medium"
-                    placeholder={undefined}
-                    onPointerEnterCapture={undefined}
-                    onPointerLeaveCapture={undefined}
-                  >
-                    Ease of Portability – Take your number anywhere, simplifying
-                    moves or remote work.
-                  </Typography>
-                </ListItem>
-              </List>
-            </div>
-
-            <Card
-              className="shadow-lg border shadow-gray-500/10 rounded-lg"
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
-              placeholder=""
-            >
-              <CardHeader
-                floated={false}
-                className="relative h-80"
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <Image
-                  alt="Stuctured Cabling Benefits"
-                  src={voipImage2}
-                  className="h-full w-full object-cover"
-                  width={600}
-                  height={400}
-                />
-              </CardHeader>
-              <CardBody
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-                placeholder=""
-              >
-                <Typography
-                  variant="h5"
-                  color="blue-gray"
-                  className="mb-3 font-bold"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  Empowering Remote Work
-                </Typography>
-                <Typography
-                  className="font-normal text-blue-gray-500"
-                  placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
-                >
-                  As remote work becomes the norm, our Stuctured Cabling solutions provide
-                  the flexibility and reliability your team needs to stay
-                  connected, productive, and ahead of the curve.
-                </Typography>
-              </CardBody>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-20 px-4 bg-blue-gray-900 text-white">
-        <div className="container mx-auto text-center">
-          <Typography
-            variant="h2"
-            className="mb-6 font-bold"
-            placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
-          >
-            Transform Your Communications Today
-          </Typography>
-          <Typography
-            className="mx-auto mb-12 max-w-3xl opacity-80"
-            placeholder={undefined}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
-          >
-            Join the Stuctured Cabling revolution with Wire Wave. Contact us to explore how
-            our solutions can elevate your business communication to new
-            heights.
-          </Typography>
-          <a
-            href="/contact-us"
-            color="white"
-            className="mr-4 border-[1px] px-6 py-4 font-semibold rounded-lg border-white"
-          >
-            Request a Demo
-          </a>
-          <a
-            href="/contact-us"
-            color="white"
-            className="mr-4 border-[1px] bg-white text-blue-gray-900 font-semibold px-6 py-4 rounded-lg border-white"
-          >
-            Get Started
-          </a>
         </div>
       </section>
     </>
   );
 };
 
-export default VOIPSolutions;
+export default StructuredCablingSolutions;
