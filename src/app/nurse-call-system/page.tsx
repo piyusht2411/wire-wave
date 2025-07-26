@@ -60,13 +60,14 @@ const NurseCallSystem: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                At Wire Wave, we specialize in advanced nurse call systems
-                designed to enhance patient care and staff responsiveness in
-                healthcare facilities. Our solutions provide reliable
-                communication tools, ensuring prompt assistance and improved
-                safety. We offer tailored installations, comprehensive training,
-                and ongoing support to meet the unique needs of hospitals,
-                clinics, and nursing homes.
+                At Wire Wave, we specialize in delivering advanced nurse call
+                systems that support efficient communication and elevate patient
+                care in healthcare environments. Our solutions are designed to
+                ensure timely response from medical staff, improving both safety
+                and operational workflow. With customized installations,
+                detailed training, and reliable post-installation support, we
+                serve the unique needs of hospitals, clinics, long-term care
+                facilities, and nursing homes.
               </Typography>
 
               <div className="space-y-3">
@@ -78,7 +79,8 @@ const NurseCallSystem: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Emergency Call Button Installation
+                    Quick-access buttons for patients to request immediate
+                    assistance in critical situations
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -89,7 +91,8 @@ const NurseCallSystem: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Wireless Nurse Call Systems
+                    Flexible, cable-free systems that ensure reliable
+                    communication across healthcare facilities
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -100,7 +103,8 @@ const NurseCallSystem: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Integrated Communication Panels
+                    Centralized control units that streamline communication
+                    between patients and staff
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -111,7 +115,8 @@ const NurseCallSystem: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Staff Alert Systems
+                    Instant alerts for medical personnel to improve response
+                    times and workflow efficiency
                   </Typography>
                 </div>
               </div>
@@ -122,12 +127,11 @@ const NurseCallSystem: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Once installed, our nurse call systems provide real-time alerts
-                and seamless integration with existing healthcare
-                infrastructure, ensuring staff can respond swiftly to patient
-                needs. Our team leverages cutting-edge technology to enhance
-                workflow efficiency and patient satisfaction, with extensive
-                experience serving various healthcare settings.
+                Once installed, our nurse call systems seamlessly integrate with
+                existing healthcare infrastructure and deliver real-time alerts,
+                allowing staff to respond swiftly to patient needs. By
+                leveraging modern technology, we help enhance staff productivity
+                and overall patient satisfaction.s
               </Typography>
 
               <Typography
@@ -136,9 +140,9 @@ const NurseCallSystem: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Contact us anytime for a free consultation or quote, and we’ll
-                address your requirements promptly. We proudly serve Toronto and
-                the surrounding regions with dedicated support.
+                Get in touch today for a free consultation or quote. We proudly
+                serve Toronto and the surrounding areas, offering prompt and
+                dedicated support for all your healthcare communication needs.
               </Typography>
             </div>
 
@@ -170,7 +174,7 @@ const NurseCallSystem: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Contact Us To Get A Free Estimate!
+                Get in Touch for a Complimentary Quote!
               </Typography>
             </div>
             <div className="flex-shrink-0">

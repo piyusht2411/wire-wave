@@ -61,12 +61,12 @@ const SecuritySystems: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                When it comes to security and technology, Wire Wave is a
-                well-known name, both home and business owners can put a trust
-                in. The benefits of getting a security system installed by our
-                trained technicians include full customization, in-home security
-                consultation, and a personalized walk-through of how your system
-                works. We specialize in:
+                Wire Wave has earned a trusted reputation among homeowners and
+                businesses alike for delivering reliable security and technology
+                solutions. Our certified technicians provide fully customized
+                installations, on-site consultations, and a hands-on walkthrough
+                to ensure you understand every aspect of your new security
+                system.
               </Typography>
 
               <div className="space-y-3">
@@ -78,7 +78,8 @@ const SecuritySystems: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Security Camera Installation
+                    Professional installation of indoor and outdoor security
+                    cameras for real-time monitoring
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -89,7 +90,8 @@ const SecuritySystems: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Security Alarm Installation
+                    Reliable alarm installations to detect unauthorized access
+                    and ensure property safety
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -100,7 +102,8 @@ const SecuritySystems: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Automation System Installation
+                    Integration of intelligent devices for enhanced control,
+                    comfort, and security
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -111,7 +114,8 @@ const SecuritySystems: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Home Security Systems
+                    End-to-end security system design and setup tailored for
+                    residential protection
                   </Typography>
                 </div>
               </div>
@@ -122,13 +126,11 @@ const SecuritySystems: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                After a security system is installed in your premises, you'll
-                exactly know how it works and the way it protects your property.
-                Not only this, our team also renders its services in the domain
-                of automation to boost your comfort, security and flexibility in
-                the long run using smart devices and locks. We have a combined
-                experience in installing and maintaining security cameras and
-                alarms systems for homes, small and large businesses.
+                Once your system is set up, you'll have complete clarity on how
+                it operates and protects your property. In addition to security
+                installations, we also specialize in smart automation—enhancing
+                your lifestyle with intelligent devices, remote access, and
+                smart locks that offer greater convenience and control.
               </Typography>
 
               <Typography
@@ -137,9 +139,10 @@ const SecuritySystems: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Call us anytime to get estimates and quotations for your needs,
-                and we'll respond to your queries in the shortest possible time.
-                We are proudly servicing Toronto and the surrounding areas.
+                Contact us anytime for a free estimate or to discuss your
+                project. We proudly serve Toronto and the surrounding
+                communities, and we’re committed to responding quickly and
+                professionally to all inquiries.
               </Typography>
             </div>
 
@@ -171,7 +174,7 @@ const SecuritySystems: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Contact Us To Get A Free Estimate!
+                Get in Touch for a Complimentary Quote!
               </Typography>
             </div>
             <div className="flex-shrink-0">

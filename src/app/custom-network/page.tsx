@@ -39,18 +39,21 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                We provide the best services of your IT needs, with the growing
-                advancement in IT industry as a business owner should be to
-                remain at the lead of technology, no matter. It's Infrastructure
-                Design and Deployment, applications support or Network or cloud
-                Services including Configure, manages and provides support for
-                all networking, video and voice-related services and equipment.
-                Monitors the network for connectivity, security and performance.
-                Business needs with best-in-class design and deployment
-                standards, should be reliable and powerful enough to support
-                your ever-increasing operational requirements. We utilize
-                advanced technologies in IT infrastructure to monitor solution,
-                virtualization, storage and LAN, WAN optimization.
+                We offer comprehensive IT services tailored to meet your
+                evolving business needs. In today’s fast-paced digital
+                landscape, staying ahead of technological advancements is
+                essential for every business owner. Whether it’s infrastructure
+                design and deployment, application support, or network and cloud
+                services—we’ve got you covered. Our team configures, manages,
+                and supports all networking, voice, and video systems. We
+                continuously monitor your network to ensure optimal
+                connectivity, performance, and security. By applying
+                industry-best design and deployment standards, we build IT
+                environments that are robust, scalable, and aligned with your
+                growing operational demands. Utilizing advanced technologies, we
+                specialize in infrastructure monitoring, virtualization, storage
+                solutions, and LAN/WAN optimization to drive efficiency and
+                performance.
               </Typography>
               <div className="flex justify-center lg:justify-end">
                 <div className="w-full max-w-md">
@@ -65,7 +68,7 @@ const InfrastructureDesignAndDeployment = () => {
           </div>
 
           <h2 className="font-bold text-blue-600 text-2xl md:text-3xl py-8 pb-4">
-            What We Offer In IT Infrastructure Design & Deployment
+            What We Deliver in IT Infrastructure Design & Implementation
           </h2>
 
           <Typography
@@ -74,13 +77,13 @@ const InfrastructureDesignAndDeployment = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            With years of experience in the Network, Server or cloud domain, we
-            identify the critical features of an organization to keep their
-            services always up and running effectively with continuity. We
-            mainly focus on evaluating, obtaining, acclimating, activating,
-            monitoring solutions whether on the premise, on cloud or a hybrid
-            scenario. With multi-vendor platforms, we ensure the performance of
-            systems and provides:
+            With years of hands-on experience in networking, servers, and cloud
+            solutions, we focus on delivering seamless service continuity. We
+            analyze key business processes to design solutions that keep your
+            systems running smoothly—whether hosted on-premise, in the cloud, or
+            in hybrid environments. Our expertise across multi-vendor platforms
+            ensures consistent system performance and reliable IT
+            infrastructure.
           </Typography>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-6">
@@ -92,7 +95,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                PC/Laptop configure and Setup
+                PC/Laptop setup and configuration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -103,7 +106,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Servers and Server Room setup
+                Server deployment and room setup
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -114,7 +117,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Active Directory domain services Setup
+                Active Directory domain configuration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -125,7 +128,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Multiple ISP termination
+                Multi-ISP connectivity integration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -136,7 +139,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Network and Structured Cabling
+                DNS, DHCP, VPN, and branch connectivitys
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -147,8 +150,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                DNS & DHCP Solution, site to site VPN and Multi-location office
-                connectivity
+                Network wiring and structured cabling
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -159,7 +161,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Routing and Switching install, upgrade and configure
+                Routing/Switching setup and upgrades
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -170,8 +172,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Server Virtualization and on-premises server migration to the
-                cloud
+                Virtualization & cloud server migration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -182,7 +183,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Firewall and load balancer install, upgrade and configure
+                Firewall/load balancer setup & updates
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -193,7 +194,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Security Solutions
+                Comprehensive IT security solutions
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -204,7 +205,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Network Printer and Operating System Setup and support
+                Backup and disaster recovery planning
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -215,13 +216,13 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Disaster Recovery
+                Printer setup & OS support services
               </Typography>
             </div>
           </div>
 
           <h2 className="font-bold text-blue-600 text-2xl md:text-3xl py-8 pb-4">
-            How Netechcabling makes difference in your infrastructure.
+            Why Wire Wave Stands Out in Infrastructure Solutions
           </h2>
 
           <Typography
@@ -230,15 +231,17 @@ const InfrastructureDesignAndDeployment = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            At Netechcabling, we surely understand the significance of a stable
-            and reliable IT infrastructure. With the professionalism of our IT
-            experts, we are here to improve the quality of your Network
-            infrastructure includes WAN, LAN, servers system and workstations
-            with VoIP and wireless connectivity along with maximizing the data
-            bandwidth and optimizing processes. If you need a specialized design
-            and deployment needs for your business, we manage and support the
-            entire project on specific requirements and in budget boundaries.
-            Few features to choose our services to include:
+            At Wire Wave, we recognize the critical importance of a dependable
+            and well-structured IT infrastructure. Backed by a team of skilled
+            IT professionals, we focus on enhancing the quality and performance
+            of your network environment—including WAN, LAN, server systems,
+            workstations, VoIP, and wireless connectivity. Our goal is to help
+            your business maximize data bandwidth, improve process efficiency,
+            and ensure smooth day-to-day operations. Whether you require a
+            customized infrastructure design or a full-scale deployment, we
+            offer end-to-end project management tailored to your specific
+            needs—delivered on time and within budget. Here are a few reasons
+            why businesses choose our IT infrastructure services:
           </Typography>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-6">
@@ -250,7 +253,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Accelerate your IT goals, growth and innovation
+                Drive IT growth, speed, and agility
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -261,7 +264,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Improvement infrastructure performance and reliability
+                Boost infrastructure reliability & speed
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -272,8 +275,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Install, Updates and monitor the technologies which meet your
-                goals
+                Install, update, and monitor tech stack
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -284,7 +286,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Accelerate your IT growth and business innovation
+                Fuel business innovation with IT growth
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -295,7 +297,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Modernize and implement new platforms in a faster and easier way
+                Deploy modern platforms efficiently
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -306,7 +308,7 @@ const InfrastructureDesignAndDeployment = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Scalable and reliable network design and procedures
+                Scalable and future-ready network design
               </Typography>
             </div>
           </div>
@@ -319,7 +321,7 @@ const InfrastructureDesignAndDeployment = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="text-center lg:text-left">
               <h2 className="mb-4 font-bold text-white text-2xl md:text-3xl lg:text-4xl">
-                Contact Us To Get A Free Estimate!
+                Get in Touch for a Complimentary Quote!
               </h2>
             </div>
             <div className="flex-shrink-0">

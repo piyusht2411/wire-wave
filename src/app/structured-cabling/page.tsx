@@ -65,27 +65,18 @@ const StructuredCablingSolutions: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content */}
             <div className="space-y-6">
-              {/* <Typography
-                variant="h3"
-                className="font-bold text-gray-800 text-2xl md:text-3xl"
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
-              >
-                Structured Cabling
-              </Typography> */}
-
               <Typography
                 className="text-gray-600 leading-relaxed text-base md:text-lg"
                 placeholder={undefined}
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Wire Wave specializes in designing and implementation of
-                structured cabling systems including copper and fiber cables. We
-                offer a portfolio of precision solutions to address your
-                communications cabling, right from designing to installation and
-                testing. Our cabling solutions include:
+                Wire Wave excels in planning and deploying structured cabling
+                systems, covering both copper and fiber optics. We provide a
+                comprehensive range of tailored solutions to meet your
+                communication infrastructure needs—from initial design through
+                installation and performance testing. Our cabling services
+                include:
               </Typography>
 
               <div className="space-y-3">
@@ -97,7 +88,8 @@ const StructuredCablingSolutions: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Cat5e, Cat6, Cat6e, Cat6A (FT4 and FT6 Plenum)
+                    Cat5e, Cat6, Cat6e, and Cat6A (available in FT4 and FT6
+                    Plenum-rated options)
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -108,7 +100,7 @@ const StructuredCablingSolutions: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Copper Voice
+                    Copper-based telephone and intercom cabling
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -119,7 +111,7 @@ const StructuredCablingSolutions: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Coaxial
+                    Coaxial cable installations for TV, CCTV, and other AV needs
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -130,7 +122,8 @@ const StructuredCablingSolutions: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Gigabit Backbone
+                    High-speed data transfer infrastructure for seamless
+                    connectivity
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -141,7 +134,8 @@ const StructuredCablingSolutions: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Inside, Outside and Multi-Site Cabling
+                    Indoor, outdoor, and multi-location cabling for various
+                    environments
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -152,8 +146,8 @@ const StructuredCablingSolutions: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Cabling Infrastructure Testing, Verification and
-                    Certification
+                    Comprehensive testing, validation, and certification of your
+                    cabling infrastructure
                   </Typography>
                 </div>
               </div>
@@ -164,14 +158,14 @@ const StructuredCablingSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Whether it be a simple home, or small business network, your
-                structured cabling installation will be done in a professional
-                and timely manner. Depending on the size of the installation,
-                all terminations from the user end will terminate in rack/wall
-                mountable panels and can be patched into existing network
-                switches and routers as required. Customer satisfaction is our
-                priority, and we are currently servicing Toronto and the
-                surrounding areas.
+                Whether you're setting up a basic home network or a small
+                business system, we ensure your structured cabling is installed
+                with professionalism and efficiency. Based on the scope of your
+                setup, all user-end connections are neatly terminated in
+                rack-mounted or wall-mounted panels, ready to integrate with
+                your existing network switches and routers. We are committed to
+                delivering excellent service and currently operate throughout
+                Toronto and neighboring regions.
               </Typography>
             </div>
 
@@ -203,7 +197,7 @@ const StructuredCablingSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Contact Us To Get A Free Estimate!
+                Get in Touch for a Complimentary Quote!
               </Typography>
             </div>
             <div className="flex-shrink-0">

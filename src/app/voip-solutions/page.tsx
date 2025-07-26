@@ -37,18 +37,16 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                We provide the best services of your IT needs, with the growing
-                advancement in IT industry as a business owner should be to
-                remain at the lead of technology, no matter. It's VOIP
-                Solutions, applications support or Network or cloud Services
-                including Configure, manages and provides support for all
-                networking, video and voice-related services and equipment.
-                Monitors the network for connectivity, security and performance.
-                Business needs with best-in-class design and deployment
-                standards, should be reliable and powerful enough to support
-                your ever-increasing operational requirements. We utilize
-                advanced technologies in IT infrastructure to monitor solution,
-                virtualization, storage and LAN, WAN optimization.
+                In today’s rapidly evolving digital landscape, VoIP (Voice over
+                IP) solutions have become essential for modern business
+                communication. At Wire Wave, we provide end-to-end VoIP services
+                designed to keep you ahead in the tech curve. From configuring
+                and managing voice networks to supporting video conferencing and
+                unified communication systems, we ensure seamless integration
+                with your existing IT infrastructure. Our services are built on
+                best-in-class design and deployment practices, offering
+                reliable, high-performance communication systems that grow with
+                your business
               </Typography>
               <div className="flex justify-center lg:justify-end">
                 <div className="w-full max-w-md">
@@ -65,7 +63,7 @@ const VOIPSolutions: React.FC = () => {
           </div>
 
           <h2 className="font-bold text-blue-600 text-2xl md:text-3xl py-8 pb-4">
-            What We Offer In IT VOIP Solutions
+            What We Offer in IT VoIP Solutions
           </h2>
 
           <Typography
@@ -74,13 +72,14 @@ const VOIPSolutions: React.FC = () => {
             onPointerLeaveCapture={undefined}
             className="text-gray-600 leading-relaxed text-base md:text-lg"
           >
-            With years of experience in the Network, Server or cloud domain, we
-            identify the critical features of an organization to keep their
-            services always up and running effectively with continuity. We
-            mainly focus on evaluating, obtaining, acclimating, activating,
-            monitoring solutions whether on the premise, on cloud or a hybrid
-            scenario. With multi-vendor platforms, we ensure the performance of
-            systems and provides:
+            With years of hands-on experience across networking, server, and
+            cloud environments, our team is equipped to deliver robust VoIP
+            solutions that prioritize uptime and call clarity. Whether you
+            operate from a single location or across multiple branches, we
+            evaluate your needs and provide tailored voice communication
+            setups—on-premises, cloud-hosted, or hybrid. Our expertise across
+            multiple vendors ensures optimal system compatibility and
+            performance, regardless of your current setup.
           </Typography>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-6">
@@ -92,7 +91,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                PC/Laptop configure and Setup
+                VoIP System Design & Deployment
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -103,7 +102,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Servers and Server Room setup
+                IP Phone Setup & Configuration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -114,7 +113,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Active Directory domain services Setup
+                PBX System Integration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -125,7 +124,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Multiple ISP termination
+                Unified Communications
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -136,7 +135,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Network and Structured Cabling
+                Call Management & Monitoring
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -147,8 +146,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                DNS & DHCP Solution, site to site VPN and Multi-location office
-                connectivity
+                SIP Trunking Services
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -159,7 +157,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Routing and Switching install, upgrade and configure
+                VoIP Security & Encryption
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -170,8 +168,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Server Virtualization and on-premises server migration to the
-                cloud
+                Multi-location VoIP Connectivity
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -182,7 +179,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Firewall and load balancer install, upgrade and configure
+                Hybrid System Support
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -193,7 +190,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Security Solutions
+                Ongoing Maintenance & Support
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -204,7 +201,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Network Printer and Operating System Setup and support
+                Auto Attendant & IVR Configuration
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -215,13 +212,13 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Disaster Recovery
+                Voicemail, Call Forwarding & Mobility Features
               </Typography>
             </div>
           </div>
 
           <h2 className="font-bold text-blue-600 text-2xl md:text-3xl py-8 pb-4">
-            How Netechcabling makes difference in your infrastructure.
+            How wire wavemakes difference in your infrastructure.
           </h2>
 
           <Typography
@@ -230,15 +227,15 @@ const VOIPSolutions: React.FC = () => {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            At Netechcabling, we surely understand the significance of a stable
-            and reliable IT infrastructure. With the professionalism of our IT
-            experts, we are here to improve the quality of your Network
-            infrastructure includes WAN, LAN, servers system and workstations
-            with VOIP and wireless connectivity along with maximizing the data
-            bandwidth and optimizing processes. If you need a specialized design
-            and deployment needs for your business, we manage and support the
-            entire project on specific requirements and in budget boundaries.
-            Few features to choose our services to include:
+            At Wire Wave, we understand the critical role that VoIP and unified
+            communications play in supporting both internal operations and
+            customer interactions. Our professionals enhance your existing
+            network with high-quality voice connectivity, including SIP
+            trunking, IP telephony, wireless VoIP, and integration with CRMs or
+            productivity tools. We offer fully managed services—custom design,
+            budget-aligned deployment, and long-term support—to ensure your
+            communication system is not only functional but also scalable and
+            secure.
           </Typography>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-6">
@@ -250,7 +247,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Accelerate your IT goals, growth and innovation
+                Custom VoIP Architecture Design
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -261,7 +258,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Improvement infrastructure performance and reliability
+                Seamless Deployment & Integrations
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -272,8 +269,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Install, Updates and monitor the technologies which meet your
-                goals
+                Scalable Solutions for All Sizes s
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -284,7 +280,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Accelerate your IT growth and business innovation
+                Cost-Effective Communication Solutions
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -295,7 +291,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Modernize and implement new platforms in a faster and easier way
+                CRM & App Integration Support
               </Typography>
             </div>
             <div className="flex items-center space-x-3">
@@ -306,7 +302,7 @@ const VOIPSolutions: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Scalable and reliable network design and procedures
+                24/7 Technical Support & Assistance
               </Typography>
             </div>
           </div>
@@ -319,7 +315,7 @@ const VOIPSolutions: React.FC = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="text-center lg:text-left">
               <h2 className="mb-4 font-bold text-white text-2xl md:text-3xl lg:text-4xl">
-                Contact Us To Get A Free Estimate!
+                Get in Touch for a Complimentary Quote!
               </h2>
             </div>
             <div className="flex-shrink-0">

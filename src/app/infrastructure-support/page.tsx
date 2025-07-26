@@ -62,12 +62,12 @@ const InfrastructureSupport: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                When it comes to security and technology, Wire Wave is a
-                well-known name, both home and business owners can put a trust
-                in. The benefits of getting a security system installed by our
-                trained technicians include full customization, in-home security
-                consultation, and a personalized walk-through of how your system
-                works. We specialize in:
+                Wire Wave is a trusted name in the field of security and smart
+                technology, serving both residential and commercial clients. Our
+                experienced technicians deliver fully tailored security
+                solutions—starting with an on-site consultation and followed by
+                a complete walkthrough to ensure you understand how your system
+                works and how it protects your property.
               </Typography>
 
               <div className="space-y-3">
@@ -79,7 +79,8 @@ const InfrastructureSupport: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Security Camera Installation
+                    Professional setup of high-definition cameras for continuous
+                    monitoring and enhanced property security
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -90,7 +91,8 @@ const InfrastructureSupport: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Security Alarm Installation
+                    Reliable intrusion detection systems to safeguard homes and
+                    businesses from unauthorized access
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -101,7 +103,8 @@ const InfrastructureSupport: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Automation System Installation
+                    Custom installation of automated systems for lighting,
+                    locks, and remote access control
                   </Typography>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -112,7 +115,8 @@ const InfrastructureSupport: React.FC = () => {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Home Security Systems
+                    End-to-end protection plans tailored to ensure safety,
+                    convenience, and peace of mind
                   </Typography>
                 </div>
               </div>
@@ -123,13 +127,14 @@ const InfrastructureSupport: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                After a security system is installed in your premises, you'll
-                exactly know how it works and the way it protects your property.
-                Not only this, our team also renders its services in the domain
-                of automation to boost your comfort, security and flexibility in
-                the long run using smart devices and locks. We have a combined
-                experience in installing and maintaining security cameras and
-                alarms systems for homes, small and large businesses.
+                Once installed, your security setup will be easy to manage,
+                offering peace of mind through advanced protection. In addition
+                to surveillance and alarm systems, we also provide smart
+                automation services. These include the integration of
+                intelligent locks, sensors, and devices designed to enhance your
+                safety, comfort, and convenience.With years of combined
+                experience, our team specializes in the setup and maintenance of
+                reliable security systems for homes and businesses of all sizes.
               </Typography>
 
               <Typography
@@ -138,9 +143,9 @@ const InfrastructureSupport: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Call us anytime to get estimates and quotations for your needs,
-                and we'll respond to your queries in the shortest possible time.
-                We are proudly servicing Toronto and the surrounding areas.
+                Get in touch with us anytime for a free quote or consultation.
+                We’re proud to serve Toronto and the surrounding areas with fast
+                and responsive customer support.
               </Typography>
             </div>
 
@@ -172,7 +177,7 @@ const InfrastructureSupport: React.FC = () => {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                Contact Us To Get A Free Estimate!
+                Get in Touch for a Complimentary Quote!
               </Typography>
             </div>
             <div className="flex-shrink-0">
